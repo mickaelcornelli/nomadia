@@ -6,6 +6,7 @@ import TopDestination from "./TopDestination/TopDestination";
 import TourGuide from "./TourGuide/TourGuide";
 import TourCategories from "./TourCategories/TourCategories";
 import Testimonials from "./Testimonials/Testimonials";
+import Banner from "./Banner/Banner";
 
 function Index() {
   return (
@@ -17,6 +18,7 @@ function Index() {
       <TourGuide />
       <TourCategories />
       <Testimonials />
+      <Banner/>
     </>
   );
 }
