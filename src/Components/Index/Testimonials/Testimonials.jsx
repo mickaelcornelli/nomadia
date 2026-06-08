@@ -115,7 +115,7 @@ function Testimonials() {
                 <div className="tst-content pt-2 relative">
                   <img
                     src={quote}
-                    alt="quote"
+                    alt="Icone de citation"
                     className="w-16 h-16 absolute right-0 top-0"
                   />
                   <h2 className="text-4xl font-kaushan! text-secondary">

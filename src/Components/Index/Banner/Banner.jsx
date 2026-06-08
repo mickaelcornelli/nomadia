@@ -18,7 +18,7 @@ function Banner() {
         <div className="absolute inset-0 flex justify-center items-center">
           <Link
             to="/"
-            classNames="relative w-35 h-35 border border-white rounded-full flex justify-center items-center"
+            className="relative w-35 h-35 border border-white rounded-full flex justify-center items-center"
           >
             <Icon
               icon="line-md:play-filled"
