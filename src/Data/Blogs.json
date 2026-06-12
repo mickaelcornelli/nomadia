@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Les meilleures destinations de voyage pour les passionnés de photographie",
+      "author": "Joey Peterson",
+      "image": "/src/assets/Index/Blogs/blog-img01.jpg",
+      "date": "05",
+      "month": "Janvier"
+    },
+    {
+      "id": 2,
+      "title": "Les meilleures façons de voyager avec votre moitié",
+      "author": "Emma Richardson",
+      "image": "/src/assets/Index/Blogs/blog-img02.jpg",
+      "date": "08",
+      "month": "Février"
+    },
+    {
+      "id": 3,
+      "title": "Top 3 des destinations d'aventure pour vos prochaines vacances",
+      "author": "Michael Carter",
+      "image": "/src/assets/Index/Blogs/blog-img03.jpg",
+      "date": "12",
+      "month": "Mars"
+    },
+    {
+      "id": 4,
+      "title": "Comment préparer un voyage inoubliable en famille",
+      "author": "Sophie Martin",
+      "image": "/src/assets/Index/Blogs/blog-img04.jpg",
+      "date": "15",
+      "month": "Avril"
+    },
+    {
+      "id": 5,
+      "title": "Les plus belles plages à découvrir cet été",
+      "author": "Lucas Bernard",
+      "image": "/src/assets/Index/Blogs/blog-img05.jpg",
+      "date": "18",
+      "month": "Mai"
+    },
+    {
+      "id": 6,
+      "title": "Guide complet pour réussir son premier road trip",
+      "author": "Charlotte Dubois",
+      "image": "/src/assets/Index/Blogs/blog-img06.jpg",
+      "date": "21",
+      "month": "Juin"
+    },
+    {
+      "id": 7,
+      "title": "Les destinations incontournables pour un week-end romantique",
+      "author": "Nathan Leroy",
+      "image": "/src/assets/Index/Blogs/blog-img07.jpg",
+      "date": "24",
+      "month": "Juillet"
+    },
+    {
+      "id": 8,
+      "title": "Voyager avec un petit budget : nos meilleures astuces",
+      "author": "Olivia Moreau",
+      "image": "/src/assets/Index/Blogs/blog-img08.jpg",
+      "date": "27",
+      "month": "Août"
+    },
+    {
+      "id": 9,
+      "title": "Les trésors cachés à explorer loin des sentiers battus",
+      "author": "Thomas Petit",
+      "image": "/src/assets/Index/Blogs/blog-img09.jpg",
+      "date": "30",
+      "month": "Septembre"
+    }
+  ]

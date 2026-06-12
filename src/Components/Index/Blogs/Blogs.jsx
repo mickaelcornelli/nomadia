@@ -1,6 +1,9 @@
 import patern from "../../../assets/Index/Blogs/patern.png";
 import Mainbtn from "../../Buttons/Mainbtn";
 
+import blogdata from "../../../Data/Blogs.json";
+import BlogCard from "../../BlogCard/BlogCard";
+
 function Blogs() {
   return (
     <>
@@ -21,10 +24,12 @@ function Blogs() {
               immersives :
             </p>
           </div>
-          <Mainbtn 
-          to="/blogs"
-          text={"En savoir plus"}
-          />
+          <Mainbtn to="/blogs" text={"En savoir plus"} />
+        </div>
+        <div className="blog-wrap grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+          {blogdata.map((item) => (
+            <BlogCard key={item.id} blog={item} />
+          ))}
         </div>
       </div>
     </>
