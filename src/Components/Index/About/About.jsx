@@ -15,7 +15,7 @@ function About() {
   return (
     <>
       <div className="px-[2%] ms:px-[8%] lg:px-[12%] py-[6%] md:py-[10%] flex justify-between items-start xl:flex-row flex-col gap-12 h-auto xl:h-250 bg-yellow-light">
-        <div className="w-full xl;w-[50%] title relative h-full">
+        <div className="w-full xl:w-[50%] title relative h-full">
           <h1 className="text-secondary text-3xl md:text-4xl xl:text-5xl font-bold pb-3">
             Nos <span className="text-yellow"> Plus</span> Belles destinations
             du mois

@@ -348,7 +348,7 @@ function Footer() {
 
           <div className="footer-item">
             <h4 className="text-2xl sm:text-3xl text-secondary mb-5">
-            Mentions légales
+              Mentions légales
             </h4>
             <ul className="space-y-3">
               <li>
@@ -394,7 +394,85 @@ function Footer() {
             </ul>
           </div>
         </div>
+        <div className="footer-item">
+          <ul className="space-y-5">
+            <li className="flex items-center">
+              <Icon
+                icon="famicons:call-outline"
+                className="bg-secondary/20 text-secondary w-10 h-10 rounded-full me-2"
+              />
+              <Link
+                to="/contact"
+                className="hover:text-yellow transition-colors duration-300 text-secondary font-medium font-kaushan! text-xl"
+              >
+                +33 5 81 33 52 03
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <Icon
+                icon="clarity:email-line"
+                className="bg-secondary/20 text-secondary w-10 h-10 rounded-full me-2"
+              />
+              <Link
+                to="/contact"
+                className="hover:text-yellow transition-colors duration-300 text-secondary font-medium font-kaushan! text-xl"
+              >
+                nomadia-info@gmail.com
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <Icon
+                icon="material-symbols-light:home-outline"
+                className="bg-secondary/20 text-secondary w-12 h-12 rounded-full me-2"
+              />
+              <Link
+                to="/contact"
+                className="hover:text-yellow transition-colors duration-300 text-secondary font-medium font-kaushan! text-xl"
+              >
+                29 Rue Tronchet, 75008 Paris
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
+
+      <div className="subscribe-banner px-[2%] sm:px-[8%] lg:px-[10%] bg-yellow-light">
+        <div className="bg-secondary px-5 lg:px-10 py-8 flex justify-between items-center xl:flex-row flex-col rounded-xl xl:gap-0 gap-10">
+          <div className="subscribe-content text-white xl:text-start text-center">
+            <h4 className="text-3xl sm:text-4xl lg:text-6xl font-medium">
+              Abonnez-vous
+              <span className="text-yellow"> dès maintenant !</span>
+            </h4>
+            <p className="sm:text-lg xl:text-xl">
+              Inscrivez-vous à notre newsletter hebdomadaire pour recevoir les
+              dernières mises à jour.
+            </p>
+          </div>
+
+          <form className="x-full xl:w-auto xl:min-w-lg">
+            <div className="flex relative border bg-[#DBEEEE] rounded-full p-1.5 x:lmax-w-120 w-full h-20">
+              <input
+                type="email"
+                placeholder="Votre email"
+                aria-label="email"
+                className="flex-1 h-17 border-0 pt-2.5 sm:pe-20 pb-2.5 ps-3 sm:ps-5 rounded-full bg-white outline-none!"
+                required
+              />
+              <button
+                type="submit"
+                aria-label="Rechercher"
+                className="bg-secondary text-white border-0 rounded-full w-15 h-15 absolute top-2.5 right-3 flex justify-center items-center transition-all duration-300 hover:bg-opacity-90 active:scale-95"
+              >
+                <Icon icon="iconoir:search" width="35" height="35" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <p className="bg-yellow-light pt-5 pb-4 text-center font-medium">
+        © 2026 <Link to="/" className="text-yellow">Nomadia</Link> tous droits réservés.
+      </p>
     </>
   );
 }

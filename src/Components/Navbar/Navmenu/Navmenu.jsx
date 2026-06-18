@@ -23,7 +23,7 @@ function Navmenu({ menuOpen, toggleMenu }) {
             to="/about"
             className="font-semibold text-lg hover:text-prim transition-colors duration-300"
           >
-          Notre histoire
+            Notre histoire
           </Link>
         </li>
         <li className="relative group">
@@ -184,25 +184,23 @@ function Navmenu({ menuOpen, toggleMenu }) {
               Préparer vos prochaines vacances
             </h3>
             <p className="text-gray-300">
-              Nomadia is a multi award wining strategy and content agency that
-              specialiazes in travel marketing
+              Nomadia est une agence de stratégie et de contenu plusieurs fois
+              primée, spécialisée dans le marketing du voyage.
             </p>
             <div>
-              <h3 className="pt-12 text-3xl pb-10">
-                Don't miss out this offers
-              </h3>
+              <h3 className="pt-12 text-3xl pb-10">Ne ratez pas cette offre</h3>
               <ul className="w-full grid grid-cols-3 gap-8">
                 <li className="text-center">
                   <span className="text-prim text-2xl">199$</span>
-                  <p className="text-xl font-medium">Basic Plan</p>
+                  <p className="text-xl font-medium">Pack Découverte</p>
                 </li>
                 <li className="text-center">
                   <span className="text-prim text-2xl">299$</span>
-                  <p className="text-xl font-medium">Pro Plan</p>
+                  <p className="text-xl font-medium">Pack Habitué</p>
                 </li>
                 <li className="text-center">
                   <span className="text-prim text-2xl">399$</span>
-                  <p className="text-xl font-medium">Full Plan</p>
+                  <p className="text-xl font-medium">Pack Business</p>
                 </li>
               </ul>
             </div>
@@ -259,7 +257,7 @@ function Navmenu({ menuOpen, toggleMenu }) {
               to="/about"
               className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
-                Notre histoire
+              Notre histoire
             </Link>
           </li>
 

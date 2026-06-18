@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Paris",
+      "slug": "paris",
+      "image": "src/assets/Destination/destination-01.jpg",
+      "country": "France"
+    },
+    {
+      "id": 2,
+      "name": "Papeete",
+      "slug": "papeete",
+      "image": "src/assets/Destination/destination-02.jpg",
+      "country": "Polynésie"
+    },
+    {
+      "id": 3,
+      "name": "Fenguang",
+      "slug": "fenguang",
+      "image": "src/assets/Destination/destination-03.jpg",
+      "country": "Chine"
+    },
+    {
+      "id": 4,
+      "name": "Pattaya",
+      "slug": "pattaya",
+      "image": "src/assets/Destination/destination-04.jpg",
+      "country": "Thailande"
+    },
+    {
+      "id": 5,
+      "name": "Agra",
+      "slug": "agra",
+      "image": "src/assets/Destination/destination-05.jpg",
+      "country": "Inde"
+    },
+    {
+      "id": 6,
+      "name": "Osaka",
+      "slug": "osaka",
+      "image": "src/assets/Destination/destination-06.jpg",
+      "country": "Japon"
+    },
+    {
+      "id": 7,
+      "name": "Dubaï",
+      "slug": "dubai",
+      "image": "src/assets/Destination/destination-07.jpg",
+      "country": "Émirats arabes unis"
+    },
+    {
+      "id": 8,
+      "name": "Bangkok",
+      "slug": "bangkok",
+      "image": "src/assets/Destination/destination-08.jpg",
+      "country": "Thaïlande"
+    }
+  ]
