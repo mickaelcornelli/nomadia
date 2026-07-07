@@ -10,7 +10,6 @@ import Banner from "./Banner/Banner";
 import Counter from "./Counter/Counter";
 import Tours from "./Tours/Tours"
 import Blogs from "./Blogs/Blogs";
-import Footer from "../Footer/Footer";
 
 function Index() {
   return (
@@ -26,7 +25,6 @@ function Index() {
       <Counter/>
       <Tours/>
       <Blogs/>
-      <Footer />
     </>
   );
 }

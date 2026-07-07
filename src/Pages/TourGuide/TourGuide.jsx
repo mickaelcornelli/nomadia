@@ -1,28 +1,44 @@
-import titleShape from "../../../assets/Index/BookingSteps/Title-Shape.png";
-
-import teamimg from "../../../assets/Index/TourGuide/team-1.png";
-import circleshape from "../../../assets/Index/TourGuide/CircleShape.png";
-
-import team1 from "../../../assets/Index/TourGuide/pic1.jpg";
-import team2 from "../../../assets/Index/TourGuide/pic2.jpg";
-import team3 from "../../../assets/Index/TourGuide/pic3.jpg";
-import team4 from "../../../assets/Index/TourGuide/pic4.jpg";
-
+import React from "react";
 import { Icon } from "@iconify/react";
 import { Link, useNavigate } from "react-router-dom";
+import sectionbanner from "../../assets/section-banner.jpg";
+import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
 
-const teamMembers = [
-  { id: 1, name: "Murphy", image: team1 },
-  { id: 2, name: "Sophie", image: team2 },
-  { id: 3, name: "Liam", image: team3 },
-  { id: 4, name: "Emma", image: team4 },
-];
+import teamMembers from "../../Data/Team.json"
 
-function TourGuide() {
+function TourGuidePage() {
   const navigate = useNavigate();
-
   return (
     <>
+      <div
+        className="section-banner h-90 lg:h-150 bg-center bg-cover flex justify-center items-center text-white bg-no-repeat relative"
+        style={{ backgroundImage: `url(${sectionbanner})` }}
+      >
+        <div className="section-content z-0 text-center">
+          <h4 className="text-2xl lg:text-4xl xl:text-6xl font-extrabold text-secondary">
+          Guide touristique
+          </h4>
+          <ul className="flex items-center flex-wra^p justify-center gap-2">
+            <li>
+              <Link
+                to="/"
+                className="cursor-pointer text-sm lg:text-lg font-medium text-secondary"
+              >
+                Accueil
+              </Link>
+            </li>
+            <span className="text-secondary">/</span>
+            <li>
+              <Link
+                to="/tourguide"
+                className="cursor-pointer text-sm lg:text-lg font-medium text-secondary"
+              >
+                Guide touristique
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="flex flex-col bg-[#daeeef] sm:p-10 rounded-lg">
         <div className="bg-white px-[2%] sm:px-[8%] py-[6%] md:py-[8%] rounded-2xl">
           <div className="title flex flex-col justify-center items-center text-center relative mb-10">
@@ -39,30 +55,11 @@ function TourGuide() {
               className="w-[35%] object-contain absolute -bottom-12"
             />
           </div>
-          <div className="tour-guid-container bg-no-repeat bg-cover bg-center flex justify-between items-start flex-col xl:flex-row pt-10 gap-10">
-            <div className="guid-image w-full xl:w-[50%] relative">
-              <img
-                src={circleshape}
-                alt="Cercle peint"
-                className="absolute top-0 left-0 w-full h-full rotate"
-              />
-              <div className="title relative text-center text-secondary text-3xl sm:text4xl md:text-6xl font-kaushan font-medium py-8 mt-5">
-                Rencontrez nos
-                <span className="text-white block text-4xl sm:text-5xl md:text-8xl font-medium [text-shadow:2px_5px_0px_rgba(14,137,145,0.2)]">
-                  guides experts
-                </span>
-              </div>
-              <img
-                src={teamimg}
-                alt="Une femme qui découvre nos guides expert"
-                className="w-full h-full z-1 relative"
-              />
-            </div>
-
-            <div className="team-wrap grid grid-cols-1 md:grid-cols-2 gap-10 w-full xl:w-[50%] cursor-pointer">
+          
+            <div className="team-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
               {teamMembers.map((member) => (
                 <div
-                  className="team-item bg-white [box-shadow:0px_18px_18px_rgba(0,106,114,0.1)] p-3.5 rounded-2xl"
+                  className="team-item bg-white [box-shadow:0px_18px_18px_rgba(0,106,114,0.1)] p-3.5 rounded-2xl h-fit cursor-pointer"
                   key={member.id}
                   onClick={() => navigate(`/tourguide/${member.id}`)}
                 >
@@ -126,11 +123,11 @@ function TourGuide() {
                 </div>
               ))}
             </div>
-          </div>
+          
         </div>
       </div>
     </>
   );
 }
 
-export default TourGuide;
+export default TourGuidePage;

@@ -20,11 +20,15 @@ import { useRef, useState } from "react";
 
 import Destinations from "../../Data/DestinationCtg.json";
 import DestinationCtgCard from "../../Components/DestinationCtgCard/DestinationCtgCard";
+import services from "../../Data/Services.json";
+
 import { Icon } from "@iconify/react";
+import Testimonials from "../../Components/Index/Testimonials/Testimonials";
 function About() {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+
   return (
     <>
       <div
@@ -201,14 +205,62 @@ function About() {
         </div>
 
         <div className="left-hot-ballon">
-            <img src={ballonleft} alt="mongolfiere" />
+          <img src={ballonleft} alt="mongolfiere" />
         </div>
         <div className="right-hot-ballon">
-            <img src={ballonright} alt="mongolfiere" />
+          <img src={ballonright} alt="mongolfiere" />
         </div>
       </div>
 
-      <div className="services"></div>
+      <div className="services bg-secondary px-[2%] ms:px-[8%] lg:px-[12%] py-[6%] md:py-[10%] relative">
+        <div className="title flex flex-col justify-center items-center text-center relative pb-10">
+          <h1 className="text-white text-4xl md:text-6xl font-bold">
+            <span className="text-yellow">Nos incroyables </span>
+            services
+          </h1>
+          <p className="text-gray/200 my-2 text-lg">
+            Des destinations d’exception à découvrir ! Voici quelques-uns de nos
+            lieux les plus populaires.
+          </p>
+          <img
+            src={titleShape}
+            alt="Trajet de vol illustré avec un avion"
+            className="w-[35%] object-contain absolute -bottom-12 brightness-0"
+          />
+        </div>
+        <div className="bg-[#daeeef] p-5 md:p-10 rounded-2xl my-10 md:my-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+            {services.map((srv, index) => {
+              return (
+                <>
+                  <Link
+                    to={`/service/${srv.id}`}
+                    className="service-item bg-white shadow-xl rounded-3xl p-3 group hover:bg-secondary transition-colors duration-500 cursor-pointer"
+                  >
+                    <div className="service-image rounded-3xl overflow-hidden h-60 md:h-100">
+                      <img
+                        src={srv.image}
+                        alt={srv.name}
+                        className="w-full h-full! object-cover"
+                      />
+                    </div>
+                    <span className="text-center block pt-5 pb-2 text-2xl font-medium text-secondary group-hover:text-yellow transition-colors duration-500">
+                      {srv.name}
+                    </span>
+                  </Link>
+                </>
+              );
+            })}
+          </div>
+
+          <div className="absolute right-40 bottom-8 hidden lg:flex flex-col text-white font-kaushan! text-2xl text-end xl:text-5xl z-1">
+          Des services pensés pour votre confort
+          <h2 className="uppercase font-afacad! font-extrabold text-4xl lg:text-6xl xl:text-8xl text-yellow">Nos prestations</h2>
+          </div>
+        </div>
+      </div>
+
+      <Testimonials />
     </>
   );
 }

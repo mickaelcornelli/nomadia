@@ -1,0 +1,158 @@
+[
+    {
+      "id": 1,
+      "name": "Camille Moreau",
+      "image": "/src/assets/TourGuidePage/pic1.jpg",
+      "jobtitle": "Guide touristique",
+      "age": 32,
+      "education": "Master en histoire de l'art et patrimoine culturel",
+      "location": "Paris, France",
+      "experiences": "8 ans d'expérience dans l'accompagnement de voyageurs à travers des circuits culturels, historiques et gastronomiques.",
+      "description": "Passionnée par l'histoire et le patrimoine, Camille accompagne les voyageurs dans des découvertes authentiques de Paris et de ses trésors cachés. Elle partage des anecdotes uniques pour rendre chaque visite mémorable.",
+      "contact": "+33 6 12 45 78 90",
+      "email": "camille.moreau@travelguide.fr",
+      "essentialSkills": [
+        "Communication et narration historique",
+        "Médiation culturelle",
+        "Gestion de visites privées et groupes",
+        "Connaissance approfondie du patrimoine",
+        "Sensibilité aux traditions locales",
+        "Organisation d'itinéraires culturels"
+      ],
+      "certificationsTraining": [
+        "Formation en guide-conférencière patrimoine",
+        "Certification en médiation culturelle",
+        "Spécialisation en histoire de l'art et monuments historiques"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Emma Fontaine",
+      "image": "/src/assets/TourGuidePage/pic2.jpg",
+      "jobtitle": "Guide touristique privée",
+      "age": 27,
+      "education": "Bachelor en tourisme de luxe et relations internationales",
+      "location": "Dubaï, Émirats arabes unis",
+      "experiences": "5 ans d'expérience dans l'organisation de séjours personnalisés pour une clientèle internationale.",
+      "description": "Emma est spécialisée dans les expériences privées et haut de gamme. Elle crée des itinéraires personnalisés mêlant découverte culturelle, confort et moments d'exception.",
+      "contact": "+971 50 789 4563",
+      "email": "emma.fontaine@travelguide.fr",
+      "essentialSkills": [
+        "Relation client haut de gamme",
+        "Organisation de voyages personnalisés",
+        "Communication multilingue",
+        "Gestion des demandes spécifiques",
+        "Coordination logistique",
+        "Sens du détail et du service"
+      ],
+      "certificationsTraining": [
+        "Formation en tourisme de luxe",
+        "Certification en gestion d'expériences premium",
+        "Formation aux standards internationaux d'hospitalité"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sofia Laurent",
+      "image": "/src/assets/TourGuidePage/pic3.jpg",
+      "jobtitle": "Guide culturelle",
+      "age": 35,
+      "education": "Diplôme en anthropologie culturelle et communication touristique",
+      "location": "Rome, Italie",
+      "experiences": "10 ans d'expérience dans la création d'expériences immersives autour de l'histoire, des traditions et du patrimoine.",
+      "description": "Sofia aime transmettre la richesse culturelle des destinations qu'elle présente. Grâce à ses connaissances approfondies, elle transforme chaque visite en une véritable immersion dans l'histoire locale.",
+      "contact": "+39 351 789 2460",
+      "email": "sofia.laurent@travelguide.fr",
+      "essentialSkills": [
+        "Transmission culturelle",
+        "Communication interculturelle",
+        "Création d'expériences immersives",
+        "Gestion de groupes",
+        "Connaissance des traditions locales",
+        "Organisation de circuits thématiques"
+      ],
+      "certificationsTraining": [
+        "Formation en anthropologie touristique",
+        "Certification de guide culturel",
+        "Formation en interprétation du patrimoine"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Thomas Girard",
+      "image": "/src/assets/TourGuidePage/pic4.jpg",
+      "jobtitle": "Guide aventure et nature",
+      "age": 38,
+      "education": "Formation en écotourisme et gestion des espaces naturels",
+      "location": "Reykjavik, Islande",
+      "experiences": "12 ans d'expérience dans les randonnées, safaris, excursions nature et voyages d'aventure.",
+      "description": "Thomas est un amoureux de la nature et des grands espaces. Il accompagne les aventuriers à travers des paysages exceptionnels tout en partageant ses connaissances sur la faune et l'environnement.",
+      "contact": "+354 778 4567",
+      "email": "thomas.girard@travelguide.fr",
+      "essentialSkills": [
+        "Orientation et navigation",
+        "Gestion de groupes en milieu naturel",
+        "Sensibilisation écologique",
+        "Organisation d'expéditions",
+        "Communication en situation d'urgence",
+        "Premiers secours en environnement isolé"
+      ],
+      "certificationsTraining": [
+        "Certification de guide nature et aventure",
+        "Formation aux premiers secours",
+        "Spécialisation en écotourisme et randonnée"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lucas Bernard",
+      "image": "/src/assets/TourGuidePage/pic5.jpg",
+      "jobtitle": "Guide touristique international",
+      "age": 29,
+      "education": "Licence en tourisme et gestion des destinations internationales",
+      "location": "Bangkok, Thaïlande",
+      "experiences": "6 ans d'expérience dans les voyages sur mesure, les visites urbaines et la découverte des cultures locales.",
+      "description": "Lucas accompagne les voyageurs internationaux dans la découverte des grandes villes et des cultures locales. Son expertise permet de vivre des expériences authentiques loin des circuits classiques.",
+      "contact": "+66 82 456 7891",
+      "email": "lucas.bernard@travelguide.fr",
+      "essentialSkills": [
+        "Communication multilingue",
+        "Adaptation aux voyageurs internationaux",
+        "Gestion d'itinéraires",
+        "Découverte des cultures locales",
+        "Coordination de transports",
+        "Résolution de problèmes"
+      ],
+      "certificationsTraining": [
+        "Diplôme en tourisme international",
+        "Formation en gestion de destinations",
+        "Certification en accompagnement touristique"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Emilie Bennett",
+      "image": "/src/assets/TourGuidePage/pic6.jpg",
+      "jobtitle": "Accompagnatrice de voyage",
+      "age": 41,
+      "education": "Diplôme supérieur en management touristique et langues étrangères",
+      "location": "Séoul, Corée du Sud",
+      "experiences": "15 ans d'expérience dans l'accompagnement de groupes, la gestion d'itinéraires et les découvertes culturelles.",
+      "description": "Emilie possède une grande expérience dans l'organisation de voyages en groupe. Elle veille au confort des voyageurs et assure un accompagnement professionnel à chaque étape du séjour.",
+      "contact": "+82 10 4567 8912",
+      "email": "emilie.bennett@travelguide.fr",
+      "essentialSkills": [
+        "Leadership et gestion de groupes",
+        "Organisation de voyages longue durée",
+        "Coordination logistique",
+        "Communication interculturelle",
+        "Gestion des imprévus",
+        "Assistance et sécurité des voyageurs"
+      ],
+      "certificationsTraining": [
+        "Certification d'accompagnatrice de voyage",
+        "Formation en management touristique",
+        "Formation aux procédures de sécurité voyage"
+      ]
+    }
+  ]

@@ -47,7 +47,7 @@ function Navmenu({ menuOpen, toggleMenu }) {
             </li>
             <li className="border-b border-gray-200 text-secondary font-medium">
               <Link
-                to="/services/1"
+                to="/service/1"
                 className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Services détails
@@ -298,7 +298,7 @@ function Navmenu({ menuOpen, toggleMenu }) {
 
               <li>
                 <Link
-                  to="/services/1"
+                  to="/service/1"
                   className="block px-4 py-2 hover:translate-x-1 transition"
                 >
                   Services Details
