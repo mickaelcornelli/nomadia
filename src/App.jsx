@@ -2,14 +2,19 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Index from "./Components/Index/Index";
+import Footer from "./Components/Footer/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
+
+
 import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
 import ServicesDetails from "./Pages/Services/ServicesDetails";
-import Footer from "./Components/Footer/Footer";
 import Testimonials from "./Pages/Testimonials/Testimonials";
 import TourGuide from "./Pages/TourGuide/TourGuide";
 import TourGuideDetails from "./Pages/TourGuide/TourGuideDetails";
-import ScrollToTop from "./Components/ScrollToTop";
+import Faqs from "./Pages/Faqs/Faqs";
+import PricingPlan from "./Pages/PricingPlan/PricingPlan";
+
 function App() {
   return (
     <>
@@ -24,6 +29,8 @@ function App() {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/tourguide" element={<TourGuide />} />
           <Route path="/tourguide/:id" element={<TourGuideDetails />} />
+          <Route path="/faqs" element={<Faqs />} />
+          <Route path="/pricing" element={<PricingPlan />} />
         </Routes>
         <Footer />
       </BrowserRouter>
