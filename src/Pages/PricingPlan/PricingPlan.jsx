@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import sectionbanner from "../../assets/section-banner.jpg";
 import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
@@ -445,10 +445,62 @@ function PricingPlan() {
 
       <div className="pricing-content py-[6%] md:py-[10%] ring-offset-sky flex flex-col lg:flex-row bg-yellow-light/40">
         <div className="relative w-full lg:w-1/2 min-h-100 lg:min-h-auto overflow-hidden">
-          <img src={frmimg} alt="bg" className="absolute inset-0 w-full object-cover"/>
+          <img
+            src={frmimg}
+            alt="bg"
+            className="absolute inset-0 w-full object-cover"
+          />
           <div className="absolute inset-0 bg-secondary/50 flex items-end p-8 lg:p-12">
-            <h4 className="text-white text-3xl md:text-4xl font-medium font-kaushan!"></h4>
+            <h4 className="text-white text-3xl md:text-4xl font-medium font-kaushan!">
+              Bonjour !
+              <span className="block text-lg md:text-xl font-medium mt-2 font-afacad">
+                Comment puis-je vous aider à préparer votre prochain voyage ?
+              </span>
+            </h4>
           </div>
+        </div>
+
+        <div className="w-full lg:w-1/2 p-6 md:p-10 flex items-center"></div>
+        <div className="bg-yellow-light w-full p-8 md:p-10 rounded-[40px] shadow-xl">
+          <h1 className="text-secondary text-4xl md:text-6xl font-bold">
+            <span className="text-yellow"> Contactez-nous</span> et échangeons !
+          </h1>
+          <p className="text-secondary my-2 text-lg lg:w-lg">
+            Une question, une envie d’évasion ou un projet de voyage ? Notre
+            équipe est à votre écoute pour vous accompagner et donner vie à vos
+            prochaines aventures.
+          </p>
+          <form method="post" className="space-y-6">
+            <input
+              type="text"
+              placeholder="Nom"
+              className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
+              required
+            />
+
+            <input
+              type="email"
+              placeholder="Email"
+              className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
+              required
+            />
+
+            <input
+              type="text"
+              placeholder="Objet"
+              className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
+              required
+            />
+
+            <textarea
+              rows="5"
+              placeholder="Message"
+              className="w-full rounded-3xl px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none resize-none"
+              required
+            ></textarea>
+
+            <Mainbtn text={"Envoyer"} />
+          </form>
         </div>
       </div>
     </>

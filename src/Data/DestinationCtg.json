@@ -1,58 +1,123 @@
+
 [
-    {
-      "id": 1,
-      "name": "Paris",
-      "slug": "paris",
-      "image": "src/assets/Destination/destination-01.jpg",
-      "country": "France"
-    },
-    {
-      "id": 2,
-      "name": "Papeete",
-      "slug": "papeete",
-      "image": "src/assets/Destination/destination-02.jpg",
-      "country": "Polynésie"
-    },
-    {
-      "id": 3,
-      "name": "Fenguang",
-      "slug": "fenguang",
-      "image": "src/assets/Destination/destination-03.jpg",
-      "country": "Chine"
-    },
-    {
-      "id": 4,
-      "name": "Pattaya",
-      "slug": "pattaya",
-      "image": "src/assets/Destination/destination-04.jpg",
-      "country": "Thailande"
-    },
-    {
-      "id": 5,
-      "name": "Agra",
-      "slug": "agra",
-      "image": "src/assets/Destination/destination-05.jpg",
-      "country": "Inde"
-    },
-    {
-      "id": 6,
-      "name": "Osaka",
-      "slug": "osaka",
-      "image": "src/assets/Destination/destination-06.jpg",
-      "country": "Japon"
-    },
-    {
-      "id": 7,
-      "name": "Dubaï",
-      "slug": "dubai",
-      "image": "src/assets/Destination/destination-07.jpg",
-      "country": "Émirats arabes unis"
-    },
-    {
-      "id": 8,
-      "name": "Bangkok",
-      "slug": "bangkok",
-      "image": "src/assets/Destination/destination-08.jpg",
-      "country": "Thaïlande"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Paris",
+    "slug": "paris",
+    "image": "src/assets/Destination/destination-01.jpg",
+    "country": "France",
+    "description": "Découvrez Paris, la ville lumière, entre monuments emblématiques, élégants boulevards, gastronomie française et charme intemporel. Une destination idéale pour une escapade culturelle et romantique.",
+    "features": [
+      "Patrimoine historique et culturel exceptionnel",
+      "Monuments emblématiques et musées renommés",
+      "Gastronomie française et expériences culinaires",
+      "Quartiers pittoresques et promenades romantiques",
+      "Itinéraires personnalisés selon vos envies"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Papeete",
+    "slug": "papeete",
+    "image": "src/assets/Destination/destination-02.jpg",
+    "country": "Polynésie",
+    "description": "Bienvenue à Papeete, porte d’entrée de la Polynésie française. Entre lagons turquoise, paysages luxuriants et culture polynésienne, laissez-vous séduire par un véritable paradis tropical.",
+    "features": [
+      "Paysages tropicaux et lagons aux eaux turquoise",
+      "Découverte de la culture et des traditions polynésiennes",
+      "Activités nautiques et excursions dans les îles",
+      "Gastronomie locale et spécialités tahitiennes",
+      "Séjours personnalisés entre détente et aventure"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fenghuang",
+    "slug": "fenghuang",
+    "image": "src/assets/Destination/destination-03.jpg",
+    "country": "Chine",
+    "description": "Plongez dans l’atmosphère fascinante de Fenghuang, ancienne cité chinoise bordée par la rivière. Maisons traditionnelles, ruelles pittoresques et paysages enchanteurs vous invitent à un voyage hors du temps.",
+    "features": [
+      "Découverte d’un patrimoine historique remarquable",
+      "Architecture traditionnelle chinoise préservée",
+      "Promenades le long de la rivière Tuojiang",
+      "Immersion dans les traditions et la culture locale",
+      "Expériences authentiques loin des itinéraires classiques"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pattaya",
+    "slug": "pattaya",
+    "image": "src/assets/Destination/destination-04.jpg",
+    "country": "Thaïlande",
+    "description": "Entre plages bordées de palmiers, eaux turquoise et vie nocturne animée, Pattaya offre un savant mélange de détente, de découvertes et de divertissements au cœur de la Thaïlande.",
+    "features": [
+      "Plages et activités nautiques",
+      "Excursions vers les îles et paysages tropicaux",
+      "Découverte de la cuisine thaïlandaise",
+      "Vie nocturne et divertissements variés",
+      "Conseils locaux pour profiter pleinement de votre séjour"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Agra",
+    "slug": "agra",
+    "image": "src/assets/Destination/destination-05.jpg",
+    "country": "Inde",
+    "description": "Partez à la découverte d’Agra, joyau historique de l’Inde et célèbre pour le majestueux Taj Mahal. Une destination riche en histoire, en architecture et en traditions fascinantes.",
+    "features": [
+      "Visite du majestueux Taj Mahal",
+      "Découverte du patrimoine historique et architectural",
+      "Immersion dans la culture et les traditions indiennes",
+      "Gastronomie locale et spécialités régionales",
+      "Accompagnement et conseils pour une découverte sereine"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Osaka",
+    "slug": "osaka",
+    "image": "src/assets/Destination/destination-06.jpg",
+    "country": "Japon",
+    "description": "Explorez Osaka, une ville vibrante où traditions japonaises et modernité se rencontrent. Savourez sa cuisine réputée, découvrez ses quartiers animés et laissez-vous surprendre par son énergie unique.",
+    "features": [
+      "Découverte de la culture et des traditions japonaises",
+      "Gastronomie locale et spécialités d’Osaka",
+      "Quartiers animés et expériences urbaines",
+      "Sites historiques et temples emblématiques",
+      "Itinéraires personnalisés entre tradition et modernité"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dubaï",
+    "slug": "dubai",
+    "image": "src/assets/Destination/destination-07.jpg",
+    "country": "Émirats arabes unis",
+    "description": "Découvrez Dubaï, une destination spectaculaire où gratte-ciel futuristes, expériences luxueuses, désert et traditions du Moyen-Orient se rencontrent pour créer un voyage inoubliable.",
+    "features": [
+      "Architecture futuriste et monuments emblématiques",
+      "Expériences luxueuses et shopping d’exception",
+      "Excursions dans le désert et aventures uniques",
+      "Découverte de la culture et des traditions locales",
+      "Séjours sur mesure adaptés à vos envies"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Bangkok",
+    "slug": "bangkok",
+    "image": "src/assets/Destination/destination-08.jpg",
+    "country": "Thaïlande",
+    "description": "Vivez l’effervescence de Bangkok, entre temples majestueux, marchés animés, cuisine thaïlandaise et quartiers modernes. Une capitale fascinante qui ne dort jamais et offre mille expériences.",
+    "features": [
+      "Temples et monuments emblématiques",
+      "Marchés locaux et immersion dans la vie thaïlandaise",
+      "Cuisine thaïlandaise et expériences gastronomiques",
+      "Découverte des quartiers traditionnels et modernes",
+      "Conseils locaux et itinéraires adaptés à vos centres d’intérêt"
+    ]
+  }
+]
