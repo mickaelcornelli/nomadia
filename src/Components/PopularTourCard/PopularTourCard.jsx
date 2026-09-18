@@ -1,10 +1,17 @@
 import { Icon } from "@iconify/react";
 import Mainbtn from "../Buttons/Mainbtn";
+import { useNavigate } from "react-router-dom";
 
 function PopularTourCard({ tour }) {
+
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className="tour-card transition-all duration-300 cursor-pointer">
+      <div
+        className="tour-card transition-all duration-300 cursor-pointer"
+        onClick={() => navigate(`/tours/${tour.id}`)}
+      >
         <div className="popular-tour-image">
           <img
             src={tour.image}

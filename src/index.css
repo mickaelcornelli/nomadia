@@ -921,8 +921,8 @@ img {
     color: #fff;
     line-height: 1.2;
     filter: drop-shadow(0 4px 4px rgb(0 0 0 / .25));
-    margin-left:30px;
-    margin-bottom:0;
+    margin-left: 30px;
+    margin-bottom: 0;
 }
 
 .step-2 {
@@ -941,4 +941,55 @@ img {
 .step3-image {
     max-width: 48px;
     filter: brightness(0) saturate(100%) invert(46%) sepia(28%) saturate(721%) hue-rotate(118deg) brightness(97%) contrast(86%);
+}
+
+.tour-time-duration li {
+    margin: 0;
+    padding: 0 0 10px 0;
+    color: var(--color-secondary);
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.btn-package::before {
+    content: "";
+    z-index: -1;
+    border-bottom: 1px solid #bcbcbc;
+    width: 100%;
+    margin-top: 18px;
+    display: block;
+    position: absolute;
+}
+
+.btn-package span {
+    color: #fff;
+    background-color: #066168;
+    border-radius: 50px;
+    width: auto;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.icon-man-holids ul li {
+    margin: 0 8px;
+    padding:0;
+    display:inline-block;
+    list-style:none;
+    font-size:14px;
+    line-height:13px;
+    background-color:#fff0;
+    box-shadow:none;
+    text-align:center;
+}
+
+
+.holids-icon img {
+    object-fit: contain;
+    filter: brightness(0)saturate()invert(22%)sepia(94%)saturate(1002%)hue-rotate(151deg)brightness(96%)contrast(95%);
+    width: 100%;
+    height: 40px;
 }

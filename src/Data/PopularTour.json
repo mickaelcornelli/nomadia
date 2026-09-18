@@ -1,251 +1,292 @@
 [
-    {
-      "id": 1,
-      "title": "Circuit culturel de Bangkok",
-      "review": "5 avis",
-      "days": "4 jours",
-      "price": "90€",
-      "duration": "4 jours & 3 nuits",
-      "places": "1N Bangkok vieille ville | 2N centre-ville de Bangkok | 1N bord du fleuve Chao Phraya",
-      "image": "/src/assets/PopularToursPage/tour-01.jpg",
-      "daysDescription": {
-        "day1": {
-          "title": "Arrivée et découverte de la ville",
-          "list": [
-            "Arrivée à Bangkok et installation à l’hôtel",
-            "Visite des temples emblématiques",
-            "Balade dans les marchés locaux",
-            "Dîner traditionnel thaïlandais"
-          ]
-        },
-        "day2": {
-          "title": "Exploration culturelle",
-          "list": [
-            "Visite du Grand Palais",
-            "Découverte du temple du Bouddha d’Émeraude",
-            "Croisière sur les canaux de Bangkok",
-            "Soirée libre dans les rues animées"
-          ]
-        },
-        "day3": {
-          "title": "Expérience locale",
-          "list": [
-            "Marché flottant de Damnoen Saduak",
-            "Dégustation de street food",
-            "Visite de musées historiques",
-            "Temps libre pour shopping"
-          ]
-        },
-        "day4": {
-          "title": "Derniers instants",
-          "list": [
-            "Petit-déjeuner à l’hôtel",
-            "Temps libre",
-            "Transfert vers l’aéroport",
-            "Fin du séjour"
-          ]
-        }
-      }
-    },
-  
-    {
-      "id": 2,
-      "title": "Aventure dans les Alpes suisses",
-      "review": "4.8 avis",
-      "days": "5 jours",
-      "price": "420€",
-      "duration": "5 jours & 4 nuits",
-      "places": "1N Interlaken | 2N Zermatt | 1N Lucerne | 1N Genève",
-      "image": "/src/assets/PopularToursPage/tour-02.jpg",
-      "daysDescription": {
-        "day1": {
-          "title": "Arrivée en montagne",
-          "list": [
-            "Arrivée en Suisse",
-            "Installation à Interlaken",
-            "Découverte du village",
-            "Dîner avec vue sur les Alpes"
-          ]
-        },
-        "day2": {
-          "title": "Randonnée alpine",
-          "list": [
-            "Randonnée guidée en montagne",
-            "Vue sur les glaciers",
-            "Pique-nique en altitude",
-            "Retour au lodge"
-          ]
-        },
-        "day3": {
-          "title": "Zermatt et le Cervin",
-          "list": [
-            "Train panoramique vers Zermatt",
-            "Découverte du Cervin",
-            "Balade dans le village",
-            "Soirée détente"
-          ]
-        },
-        "day4": {
-          "title": "Lucerne culturelle",
-          "list": [
-            "Visite du pont de la Chapelle",
-            "Tour du lac des Quatre-Cantons",
-            "Musée historique",
-            "Temps libre"
-          ]
-        },
-        "day5": {
-          "title": "Fin du voyage",
-          "list": [
-            "Petit-déjeuner",
-            "Retour Genève",
-            "Achat souvenirs",
-            "Départ"
-          ]
-        }
-      }
-    },
-  
-    {
-      "id": 3,
-      "title": "Safari en Tanzanie",
-      "review": "5 avis",
-      "days": "6 jours",
-      "price": "890€",
-      "duration": "6 jours & 5 nuits",
-      "places": "2N Serengeti | 2N Ngorongoro | 1N Arusha | 1N Tarangire",
-      "image": "/src/assets/PopularToursPage/tour-03.jpg",
-      "daysDescription": {
-        "day1": {
-          "title": "Arrivée en Afrique",
-          "list": [
-            "Accueil à l’aéroport",
-            "Installation au lodge",
-            "Briefing safari",
-            "Dîner traditionnel"
-          ]
-        },
-        "day2": {
-          "title": "Safari Serengeti",
-          "list": [
-            "Safari matin dans le parc",
-            "Observation des lions",
-            "Pique-nique dans la savane",
-            "Safari coucher de soleil"
-          ]
-        },
-        "day3": {
-          "title": "Faune sauvage",
-          "list": [
-            "Observation des éléphants",
-            "Rencontre avec les girafes",
-            "Exploration guidée",
-            "Nuit au camp"
-          ]
-        },
-        "day4": {
-          "title": "Crater Ngorongoro",
-          "list": [
-            "Descente dans le cratère",
-            "Observation des rhinocéros",
-            "Découverte des paysages",
-            "Retour au lodge"
-          ]
-        },
-        "day5": {
-          "title": "Tarangire",
-          "list": [
-            "Safari dans Tarangire",
-            "Baobabs géants",
-            "Observation des troupeaux",
-            "Nuit en camp"
-          ]
-        },
-        "day6": {
-          "title": "Départ",
-          "list": [
-            "Petit-déjeuner",
-            "Retour Arusha",
-            "Transfert aéroport",
-            "Fin du voyage"
-          ]
-        }
-      }
-    },
-  
-    {
-      "id": 4,
-      "title": "Découverte culturelle du Japon",
-      "review": "4.9 avis",
-      "days": "7 jours",
-      "price": "1200€",
-      "duration": "7 jours & 6 nuits",
-      "places": "2N Tokyo | 2N Kyoto | 1N Osaka | 1N Nara | 1N Hakone",
-      "image": "/src/assets/PopularToursPage/tour-04.jpg",
-      "daysDescription": {
-        "day1": {
-          "title": "Tokyo moderne",
-          "list": [
-            "Arrivée à Tokyo",
-            "Découverte de Shibuya",
-            "Visite de Shinjuku",
-            "Soirée libre"
-          ]
-        },
-        "day2": {
-          "title": "Culture japonaise",
-          "list": [
-            "Temple Senso-ji",
-            "Quartier Asakusa",
-            "Musées traditionnels",
-            "Dîner japonais"
-          ]
-        },
-        "day3": {
-          "title": "Kyoto historique",
-          "list": [
-            "Train vers Kyoto",
-            "Temple Kinkaku-ji",
-            "Forêt de bambous",
-            "Gion quartier des geishas"
-          ]
-        },
-        "day4": {
-          "title": "Expérience traditionnelle",
-          "list": [
-            "Cérémonie du thé",
-            "Visite de temples",
-            "Atelier kimono",
-            "Soirée libre"
-          ]
-        },
-        "day5": {
-          "title": "Osaka dynamique",
-          "list": [
-            "Château d’Osaka",
-            "Street food Dotonbori",
-            "Shopping",
-            "Vie nocturne"
-          ]
-        },
-        "day6": {
-          "title": "Nara et nature",
-          "list": [
-            "Parc aux daims",
-            "Temple Todai-ji",
-            "Promenade nature",
-            "Retour hôtel"
-          ]
-        },
-        "day7": {
-          "title": "Retour",
-          "list": [
-            "Dernier petit-déjeuner",
-            "Achat souvenirs",
-            "Transfert aéroport",
-            "Fin du voyage"
-          ]
-        }
+  {
+    "id": 1,
+    "title": "Circuit culturel de Bangkok",
+    "review": "5 avis",
+    "days": "4 jours",
+    "price": "90€",
+    "duration": "4 jours & 3 nuits",
+    "places": "1N Bangkok vieille ville | 2N centre-ville de Bangkok | 1N bord du fleuve Chao Phraya",
+    "image": "/src/assets/PopularToursPage/tour-01.jpg",
+    "overview": "Découvrez Bangkok à travers ses temples emblématiques, ses marchés animés et ses quartiers historiques. Une immersion culturelle au cœur de la capitale thaïlandaise, entre traditions, gastronomie locale et découverte de la vie bangkokoise.",
+    "overviewHighlights": [
+      "Découverte des temples emblématiques de Bangkok",
+      "Exploration des marchés locaux et de la street food",
+      "Croisière sur les canaux de Bangkok",
+      "Idéal pour les amateurs de culture et de découverte"
+    ],
+    "additionalDelights": [
+      "Assistance locale pendant votre séjour",
+      "Options d'activités et d'excursions disponibles"
+    ],
+    "daysDescription": {
+      "day1": {
+        "title": "Arrivée et découverte de la ville",
+        "list": [
+          "Arrivée à Bangkok et installation à l’hôtel",
+          "Visite des temples emblématiques",
+          "Balade dans les marchés locaux",
+          "Dîner traditionnel thaïlandais"
+        ]
+      },
+      "day2": {
+        "title": "Exploration culturelle",
+        "list": [
+          "Visite du Grand Palais",
+          "Découverte du temple du Bouddha d’Émeraude",
+          "Croisière sur les canaux de Bangkok",
+          "Soirée libre dans les rues animées"
+        ]
+      },
+      "day3": {
+        "title": "Expérience locale",
+        "list": [
+          "Marché flottant de Damnoen Saduak",
+          "Dégustation de street food",
+          "Visite de musées historiques",
+          "Temps libre pour shopping"
+        ]
+      },
+      "day4": {
+        "title": "Derniers instants",
+        "list": [
+          "Petit-déjeuner à l’hôtel",
+          "Temps libre",
+          "Transfert vers l’aéroport",
+          "Fin du séjour"
+        ]
       }
     }
-  ]
+  },
+  {
+    "id": 2,
+    "title": "Aventure dans les Alpes suisses",
+    "review": "4.8 avis",
+    "days": "5 jours",
+    "price": "420€",
+    "duration": "5 jours & 4 nuits",
+    "places": "1N Interlaken | 2N Zermatt | 1N Lucerne | 1N Genève",
+    "image": "/src/assets/PopularToursPage/tour-02.jpg",
+    "overview": "Partez à la découverte des paysages majestueux des Alpes suisses entre montagnes, lacs et villages pittoresques. Un séjour mêlant randonnée, panoramas exceptionnels et découvertes culturelles à Interlaken, Zermatt, Lucerne et Genève.",
+    "overviewHighlights": [
+      "Séjour au cœur des Alpes suisses",
+      "Randonnées et panoramas montagneux exceptionnels",
+      "Découverte du Cervin et des villages alpins",
+      "Idéal pour les amoureux de nature et d'aventure"
+    ],
+    "additionalDelights": [
+      "Assistance locale pendant votre séjour",
+      "Excursions et activités de montagne disponibles en option"
+    ],
+    "daysDescription": {
+      "day1": {
+        "title": "Arrivée en montagne",
+        "list": [
+          "Arrivée en Suisse",
+          "Installation à Interlaken",
+          "Découverte du village",
+          "Dîner avec vue sur les Alpes"
+        ]
+      },
+      "day2": {
+        "title": "Randonnée alpine",
+        "list": [
+          "Randonnée guidée en montagne",
+          "Vue sur les glaciers",
+          "Pique-nique en altitude",
+          "Retour au lodge"
+        ]
+      },
+      "day3": {
+        "title": "Zermatt et le Cervin",
+        "list": [
+          "Train panoramique vers Zermatt",
+          "Découverte du Cervin",
+          "Balade dans le village",
+          "Soirée détente"
+        ]
+      },
+      "day4": {
+        "title": "Lucerne culturelle",
+        "list": [
+          "Visite du pont de la Chapelle",
+          "Tour du lac des Quatre-Cantons",
+          "Musée historique",
+          "Temps libre"
+        ]
+      },
+      "day5": {
+        "title": "Fin du voyage",
+        "list": [
+          "Petit-déjeuner",
+          "Retour Genève",
+          "Achat souvenirs",
+          "Départ"
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Safari en Tanzanie",
+    "review": "5 avis",
+    "days": "6 jours",
+    "price": "890€",
+    "duration": "6 jours & 5 nuits",
+    "places": "2N Serengeti | 2N Ngorongoro | 1N Arusha | 1N Tarangire",
+    "image": "/src/assets/PopularToursPage/tour-03.jpg",
+    "overview": "Vivez une aventure exceptionnelle au cœur de la Tanzanie entre savane sauvage, grands espaces et rencontres avec la faune africaine. Explorez le Serengeti, le cratère du Ngorongoro et le parc de Tarangire lors d’un safari inoubliable.",
+    "overviewHighlights": [
+      "Safaris au cœur du Serengeti et de Tarangire",
+      "Découverte du spectaculaire cratère du Ngorongoro",
+      "Observation des lions, éléphants, girafes et rhinocéros",
+      "Idéal pour les passionnés de nature et de faune sauvage"
+    ],
+    "additionalDelights": [
+      "Accompagnement et assistance locale pendant le safari",
+      "Safaris privés et activités supplémentaires disponibles en option"
+    ],
+    "daysDescription": {
+      "day1": {
+        "title": "Arrivée en Afrique",
+        "list": [
+          "Accueil à l’aéroport",
+          "Installation au lodge",
+          "Briefing safari",
+          "Dîner traditionnel"
+        ]
+      },
+      "day2": {
+        "title": "Safari Serengeti",
+        "list": [
+          "Safari matin dans le parc",
+          "Observation des lions",
+          "Pique-nique dans la savane",
+          "Safari coucher de soleil"
+        ]
+      },
+      "day3": {
+        "title": "Faune sauvage",
+        "list": [
+          "Observation des éléphants",
+          "Rencontre avec les girafes",
+          "Exploration guidée",
+          "Nuit au camp"
+        ]
+      },
+      "day4": {
+        "title": "Crater Ngorongoro",
+        "list": [
+          "Descente dans le cratère",
+          "Observation des rhinocéros",
+          "Découverte des paysages",
+          "Retour au lodge"
+        ]
+      },
+      "day5": {
+        "title": "Tarangire",
+        "list": [
+          "Safari dans Tarangire",
+          "Baobabs géants",
+          "Observation des troupeaux",
+          "Nuit en camp"
+        ]
+      },
+      "day6": {
+        "title": "Départ",
+        "list": [
+          "Petit-déjeuner",
+          "Retour Arusha",
+          "Transfert aéroport",
+          "Fin du voyage"
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "title": "Découverte culturelle du Japon",
+    "review": "4.9 avis",
+    "days": "7 jours",
+    "price": "1200€",
+    "duration": "7 jours & 6 nuits",
+    "places": "2N Tokyo | 2N Kyoto | 1N Osaka | 1N Nara | 1N Hakone",
+    "image": "/src/assets/PopularToursPage/tour-04.jpg",
+    "overview": "Découvrez les multiples facettes du Japon entre modernité, traditions et paysages fascinants. De Tokyo à Kyoto en passant par Osaka, Nara et Hakone, vivez une expérience riche en culture, gastronomie et découvertes.",
+    "overviewHighlights": [
+      "Découverte de Tokyo, Kyoto, Osaka et Nara",
+      "Temples, sanctuaires et traditions japonaises",
+      "Expériences culturelles et gastronomie locale",
+      "Idéal pour une première découverte du Japon"
+    ],
+    "additionalDelights": [
+      "Assistance locale pendant votre séjour",
+      "Activités culturelles et excursions disponibles en option"
+    ],
+    "daysDescription": {
+      "day1": {
+        "title": "Tokyo moderne",
+        "list": [
+          "Arrivée à Tokyo",
+          "Découverte de Shibuya",
+          "Visite de Shinjuku",
+          "Soirée libre"
+        ]
+      },
+      "day2": {
+        "title": "Culture japonaise",
+        "list": [
+          "Temple Senso-ji",
+          "Quartier Asakusa",
+          "Musées traditionnels",
+          "Dîner japonais"
+        ]
+      },
+      "day3": {
+        "title": "Kyoto historique",
+        "list": [
+          "Train vers Kyoto",
+          "Temple Kinkaku-ji",
+          "Forêt de bambous",
+          "Gion quartier des geishas"
+        ]
+      },
+      "day4": {
+        "title": "Expérience traditionnelle",
+        "list": [
+          "Cérémonie du thé",
+          "Visite de temples",
+          "Atelier kimono",
+          "Soirée libre"
+        ]
+      },
+      "day5": {
+        "title": "Osaka dynamique",
+        "list": [
+          "Château d’Osaka",
+          "Street food Dotonbori",
+          "Shopping",
+          "Vie nocturne"
+        ]
+      },
+      "day6": {
+        "title": "Nara et nature",
+        "list": [
+          "Parc aux daims",
+          "Temple Todai-ji",
+          "Promenade nature",
+          "Retour hôtel"
+        ]
+      },
+      "day7": {
+        "title": "Retour",
+        "list": [
+          "Dernier petit-déjeuner",
+          "Achat souvenirs",
+          "Transfert aéroport",
+          "Fin du voyage"
+        ]
+      }
+    }
+  }
+]
