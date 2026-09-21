@@ -1,74 +1,146 @@
 [
-    {
-      "id": 1,
-      "title": "Les meilleures destinations de voyage pour les passionnés de photographie",
-      "author": "Joey Peterson",
-      "image": "/src/assets/Index/Blogs/blog-img01.jpg",
-      "date": "05",
-      "month": "Janvier"
-    },
-    {
-      "id": 2,
-      "title": "Les meilleures façons de voyager avec votre moitié",
-      "author": "Emma Richardson",
-      "image": "/src/assets/Index/Blogs/blog-img02.jpg",
-      "date": "08",
-      "month": "Février"
-    },
-    {
-      "id": 3,
-      "title": "Top 3 des destinations d'aventure pour vos prochaines vacances",
-      "author": "Michael Carter",
-      "image": "/src/assets/Index/Blogs/blog-img03.jpg",
-      "date": "12",
-      "month": "Mars"
-    },
-    {
-      "id": 4,
-      "title": "Comment préparer un voyage inoubliable en famille",
-      "author": "Sophie Martin",
-      "image": "/src/assets/Index/Blogs/blog-img04.jpg",
-      "date": "15",
-      "month": "Avril"
-    },
-    {
-      "id": 5,
-      "title": "Les plus belles plages à découvrir cet été",
-      "author": "Lucas Bernard",
-      "image": "/src/assets/Index/Blogs/blog-img05.jpg",
-      "date": "18",
-      "month": "Mai"
-    },
-    {
-      "id": 6,
-      "title": "Guide complet pour réussir son premier road trip",
-      "author": "Charlotte Dubois",
-      "image": "/src/assets/Index/Blogs/blog-img06.jpg",
-      "date": "21",
-      "month": "Juin"
-    },
-    {
-      "id": 7,
-      "title": "Les destinations incontournables pour un week-end romantique",
-      "author": "Nathan Leroy",
-      "image": "/src/assets/Index/Blogs/blog-img07.jpg",
-      "date": "24",
-      "month": "Juillet"
-    },
-    {
-      "id": 8,
-      "title": "Voyager avec un petit budget : nos meilleures astuces",
-      "author": "Olivia Moreau",
-      "image": "/src/assets/Index/Blogs/blog-img08.jpg",
-      "date": "27",
-      "month": "Août"
-    },
-    {
-      "id": 9,
-      "title": "Les trésors cachés à explorer loin des sentiers battus",
-      "author": "Thomas Petit",
-      "image": "/src/assets/Index/Blogs/blog-img09.jpg",
-      "date": "30",
-      "month": "Septembre"
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Les meilleures destinations de voyage pour les passionnés de photographie",
+    "author": "Joey Peterson",
+    "image": "/src/assets/Index/Blogs/blog-img01.jpg",
+    "date": "05",
+    "month": "Janvier",
+    "description": "Plongez dans l’atmosphère fascinante de Fenghuang, ancienne cité chinoise bordée par la rivière. Maisons traditionnelles, ruelles pittoresques et paysages enchanteurs vous invitent à un voyage hors du temps.",
+    "features": [
+      "Découverte d’un patrimoine historique remarquable",
+      "Architecture traditionnelle chinoise préservée",
+      "Promenades le long de la rivière Tuojiang",
+      "Immersion dans les traditions et la culture locale",
+      "Expériences authentiques loin des itinéraires classiques"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Les meilleures façons de voyager avec votre moitié",
+    "author": "Emma Richardson",
+    "image": "/src/assets/Index/Blogs/blog-img02.jpg",
+    "date": "08",
+    "month": "Février",
+    "description": "Découvrez les destinations idéales pour partager des moments inoubliables à deux, entre paysages romantiques, expériences authentiques et escapades hors du temps.",
+    "features": [
+      "Destinations romantiques pour couples",
+      "Séjours propices à la détente et à la découverte",
+      "Expériences uniques à partager à deux",
+      "Paysages et lieux particulièrement pittoresques",
+      "Conseils pour organiser un voyage en amoureux"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Top 3 des destinations d'aventure pour vos prochaines vacances",
+    "author": "Michael Carter",
+    "image": "/src/assets/Index/Blogs/blog-img03.jpg",
+    "date": "12",
+    "month": "Mars",
+    "description": "Partez à la découverte de destinations spectaculaires pour les amateurs d’aventure. Randonnées, paysages sauvages et expériences uniques vous attendent aux quatre coins du monde.",
+    "features": [
+      "Destinations idéales pour les amateurs d’aventure",
+      "Randonnées au cœur de paysages exceptionnels",
+      "Activités en pleine nature",
+      "Découverte de territoires préservés",
+      "Expériences hors des sentiers battus"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Comment préparer un voyage inoubliable en famille",
+    "author": "Sophie Martin",
+    "image": "/src/assets/Index/Blogs/blog-img04.jpg",
+    "date": "15",
+    "month": "Avril",
+    "description": "Préparez sereinement votre prochaine escapade en famille grâce à nos conseils pour choisir la destination, organiser les activités et profiter pleinement de chaque moment.",
+    "features": [
+      "Conseils pour choisir une destination familiale",
+      "Activités adaptées aux petits et aux grands",
+      "Organisation simple et efficace du séjour",
+      "Astuces pour voyager sereinement avec les enfants",
+      "Idées pour créer des souvenirs inoubliables"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Les plus belles plages à découvrir cet été",
+    "author": "Lucas Bernard",
+    "image": "/src/assets/Index/Blogs/blog-img05.jpg",
+    "date": "18",
+    "month": "Mai",
+    "description": "Évadez-vous vers les plus belles plages et profitez d’eaux turquoise, de paysages paradisiaques et de moments de détente inoubliables sous le soleil.",
+    "features": [
+      "Plages aux eaux cristallines",
+      "Paysages côtiers exceptionnels",
+      "Destinations idéales pour se détendre",
+      "Activités nautiques et découvertes locales",
+      "Escapades parfaites pour l’été"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Guide complet pour réussir son premier road trip",
+    "author": "Charlotte Dubois",
+    "image": "/src/assets/Index/Blogs/blog-img06.jpg",
+    "date": "21",
+    "month": "Juin",
+    "description": "Organisez votre premier road trip en toute simplicité grâce à ce guide complet. Itinéraire, budget, hébergement et conseils pratiques : tout ce qu’il faut savoir avant de prendre la route.",
+    "features": [
+      "Préparation de l’itinéraire et des étapes",
+      "Conseils pour maîtriser son budget",
+      "Choix des hébergements et des véhicules",
+      "Organisation des bagages et équipements",
+      "Astuces pour profiter pleinement du voyage"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Les destinations incontournables pour un week-end romantique",
+    "author": "Nathan Leroy",
+    "image": "/src/assets/Index/Blogs/blog-img07.jpg",
+    "date": "24",
+    "month": "Juillet",
+    "description": "Offrez-vous une parenthèse romantique le temps d’un week-end. Découvrez des destinations pleines de charme où gastronomie, culture et paysages se rencontrent.",
+    "features": [
+      "Destinations idéales pour une escapade à deux",
+      "Hôtels et lieux pleins de charme",
+      "Découvertes gastronomiques",
+      "Promenades dans des cadres romantiques",
+      "Moments privilégiés à partager en couple"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Voyager avec un petit budget : nos meilleures astuces",
+    "author": "Olivia Moreau",
+    "image": "/src/assets/Index/Blogs/blog-img08.jpg",
+    "date": "27",
+    "month": "Août",
+    "description": "Voyager sans se ruiner est possible. Découvrez nos meilleures astuces pour réduire vos dépenses tout en profitant pleinement de votre destination et de ses expériences.",
+    "features": [
+      "Astuces pour trouver des billets à petit prix",
+      "Solutions d’hébergement économiques",
+      "Conseils pour réduire les dépenses sur place",
+      "Activités gratuites ou peu coûteuses",
+      "Organisation d’un voyage adapté à votre budget"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Les trésors cachés à explorer loin des sentiers battus",
+    "author": "Thomas Petit",
+    "image": "/src/assets/Index/Blogs/blog-img09.jpg",
+    "date": "30",
+    "month": "Septembre",
+    "description": "Partez à la découverte de lieux encore préservés du tourisme de masse. Villages authentiques, paysages secrets et rencontres locales vous promettent une expérience unique.",
+    "features": [
+      "Découverte de destinations méconnues",
+      "Lieux préservés du tourisme de masse",
+      "Rencontres avec les populations locales",
+      "Paysages authentiques et préservés",
+      "Expériences uniques loin des itinéraires classiques"
+    ]
+  }
+]

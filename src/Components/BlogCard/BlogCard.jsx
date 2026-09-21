@@ -1,7 +1,13 @@
+import { useNavigate } from "react-router-dom";
 function BlogCard({ blog }) {
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className="blog-item relative group overflow-hidden rounded-xl shadow-lg">
+      <div
+        className="blog-item relative group overflow-hidden rounded-xl shadow-lg cursor-pointer"
+        onClick={() => navigate(`/blog/${blog.id}`)}
+      >
         <div className="blog-img w-full relative">
           <img
             src={blog.image}
@@ -13,8 +19,12 @@ function BlogCard({ blog }) {
             <span>{blog.month}</span>
           </div>
           <div className="blog-content absolute bottom-4 left-4 z-10">
-            <span className="bg-yellow text-sm px-2 rounded-sm text-white">De {blog.author}</span>
-            <h3 className="text-white text-2xl md:text-3xl font-medium pt-2 hover:text-yellow transition-colors duration-300">{blog.title}</h3>
+            <span className="bg-yellow text-sm px-2 rounded-sm text-white">
+              De {blog.author}
+            </span>
+            <h3 className="text-white text-2xl md:text-3xl font-medium pt-2 hover:text-yellow transition-colors duration-300">
+              {blog.title}
+            </h3>
           </div>
         </div>
       </div>

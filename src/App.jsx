@@ -19,7 +19,7 @@ import DestinationDetails from "./Pages/Destination/DestinationDetails";
 import Tours from "./Pages/Tours/Tours";
 import ToursDetails from "./Pages/Tours/ToursDetails";
 import Blogs from "./Pages/Blogs/Blogs";
-
+import BlogsDetails from "./Pages/Blogs/BlogsDetails";
 function App() {
   return (
     <>
@@ -40,7 +40,8 @@ function App() {
           <Route path="/destination/:id" element={<DestinationDetails />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/tours/:id" element={<ToursDetails />} />
-          <Route path="/blogs/" element={<Blogs />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blog/:id" element={<BlogsDetails />} />
         </Routes>
         <Footer />
       </BrowserRouter>

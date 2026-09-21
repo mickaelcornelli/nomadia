@@ -1,7 +1,8 @@
 import React from "react";
 import sectionbanner from "../../assets/section-banner.jpg";
 import { Link } from "react-router-dom";
-
+import BlogCard from "../../Components/BlogCard/BlogCard";
+import blogdata from "../../Data/Blogs.json"
 function Blogs() {
   return (
     <>
@@ -34,6 +35,12 @@ function Blogs() {
           </ul>
         </div>
       </div>
+
+      <div className="blog-wrap grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 px-[2%] sm:px-[8%] lg:px-[12%] py-[6%] md:py-[10]">
+          {blogdata.map((item) => (
+            <BlogCard key={item.id} blog={item} />
+          ))}
+        </div>
     </>
   );
 }
