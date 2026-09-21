@@ -149,51 +149,50 @@ function DestinationDetails() {
             </p>
 
             <div className="bg-yellow-light w-full p-8 md:p-10 rounded-[40px] shadow-xl">
-          <h1 className="text-secondary text-4xl md:text-6xl font-bold">
-            <span className="text-yellow"> Contactez-nous</span> et échangeons !
-          </h1>
-          <p className="text-secondary my-2 text-lg lg:w-lg">
-            Une question, une envie d’évasion ou un projet de voyage ? Notre
-            équipe est à votre écoute pour vous accompagner et donner vie à vos
-            prochaines aventures.
-          </p>
-          <form method="post" className="space-y-6">
-            <input
-              type="text"
-              placeholder="Nom"
-              className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
-              required
-            />
+              <h1 className="text-secondary text-4xl md:text-6xl font-bold">
+                <span className="text-yellow"> Contactez-nous</span> et
+                échangeons !
+              </h1>
+              <p className="text-secondary my-2 text-lg lg:w-lg">
+                Une question, une envie d’évasion ou un projet de voyage ? Notre
+                équipe est à votre écoute pour vous accompagner et donner vie à
+                vos prochaines aventures.
+              </p>
+              <form method="post" className="space-y-6">
+                <input
+                  type="text"
+                  placeholder="Nom"
+                  className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
+                  required
+                />
 
-            <input
-              type="email"
-              placeholder="Email"
-              className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
-              required
-            />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
+                  required
+                />
 
-            <input
-              type="text"
-              placeholder="Objet"
-              className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
-              required
-            />
+                <input
+                  type="text"
+                  placeholder="Objet"
+                  className="w-full rounded-full px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none"
+                  required
+                />
 
-            <textarea
-              rows="5"
-              placeholder="Message"
-              className="w-full rounded-3xl px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none resize-none"
-              required
-            ></textarea>
+                <textarea
+                  rows="5"
+                  placeholder="Message"
+                  className="w-full rounded-3xl px-6 py-4 bg-white text-gray-700 placeholder-gray-400 focus:ring-2 focus:ring-yellow focus:outline-none resize-none"
+                  required
+                ></textarea>
 
-            <Mainbtn text={"Envoyer"} />
-          </form>
-        </div>
+                <Mainbtn text={"Envoyer"} />
+              </form>
+            </div>
           </div>
         </div>
       </div>
-
-      
     </>
   );
 }

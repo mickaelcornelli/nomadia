@@ -20,6 +20,7 @@ import Tours from "./Pages/Tours/Tours";
 import ToursDetails from "./Pages/Tours/ToursDetails";
 import Blogs from "./Pages/Blogs/Blogs";
 import BlogsDetails from "./Pages/Blogs/BlogsDetails";
+import Contact from "./Pages/Contact/Contact";
 function App() {
   return (
     <>
@@ -42,6 +43,7 @@ function App() {
           <Route path="/tours/:id" element={<ToursDetails />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<BlogsDetails />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>

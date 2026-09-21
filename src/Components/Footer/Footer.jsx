@@ -273,7 +273,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/service"
+                  to="/services"
                   className="hover:text-yellow transition-colors duration-300 text-secondary font-medium"
                 >
                   Services
@@ -281,7 +281,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/about"
                   className="hover:text-yellow transition-colors duration-300 text-secondary font-medium"
                 >
                   Le groupe
@@ -289,7 +289,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/blogs"
                   className="hover:text-yellow transition-colors duration-300 text-secondary font-medium"
                 >
                   Actualités et articles
