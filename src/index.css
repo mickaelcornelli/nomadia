@@ -411,7 +411,7 @@ img {
 
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     .offer {
         display: none;
     }
@@ -431,7 +431,7 @@ img {
     }
 }
 
-@media screen and(max-width:500px) {
+@media screen and (max-width:500px) {
     .hero-content h3 {
         font-size: 30px;
     }
@@ -454,7 +454,7 @@ img {
 
 }
 
-@media screen and(max-width:400px) {
+@media screen and (max-width:400px) {
     .hero-title {
         font-size: 50px;
     }
@@ -976,14 +976,14 @@ img {
 
 .icon-man-holids ul li {
     margin: 0 8px;
-    padding:0;
-    display:inline-block;
-    list-style:none;
-    font-size:14px;
-    line-height:13px;
-    background-color:#fff0;
-    box-shadow:none;
-    text-align:center;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    line-height: 13px;
+    background-color: #fff0;
+    box-shadow: none;
+    text-align: center;
 }
 
 
@@ -992,4 +992,21 @@ img {
     filter: brightness(0)saturate()invert(22%)sepia(94%)saturate(1002%)hue-rotate(151deg)brightness(96%)contrast(95%);
     width: 100%;
     height: 40px;
+}
+
+/* 404 Page Not Found */
+.error-ballon-img {
+    max-width: 172px;
+    margin-bottom: 20px;
+    animation: error-ballonanimation 2s cubic-bezier(.25, .46, .45, .94) infinite alternate-reverse both;
+}
+
+@keyframes error-ballonanimation {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(-15px)
+    }
 }

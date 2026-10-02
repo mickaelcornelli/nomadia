@@ -5,7 +5,6 @@ import Index from "./Components/Index/Index";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 
-
 import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
 import ServicesDetails from "./Pages/Services/ServicesDetails";
@@ -21,6 +20,7 @@ import ToursDetails from "./Pages/Tours/ToursDetails";
 import Blogs from "./Pages/Blogs/Blogs";
 import BlogsDetails from "./Pages/Blogs/BlogsDetails";
 import Contact from "./Pages/Contact/Contact";
+import Page404 from "./Pages/Page404/Page404";
 function App() {
   return (
     <>
@@ -44,6 +44,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<BlogsDetails />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="pagenotfound" element={<Page404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -50,7 +50,7 @@ function Contact() {
                 <span className="text-yellow"> Contactez-nous</span> et
                 échangeons !
               </h1>
-              <p className="text-secondary my-2 text-lg lg:w-lg">
+              <p className="text-secondary my-2 text-lg w-full max-w-full wrap-break-words">
                 Une question, une envie d’évasion ou un projet de voyage ? Notre
                 équipe est à votre écoute pour vous accompagner et donner vie à
                 vos prochaines aventures.
@@ -87,36 +87,76 @@ function Contact() {
                 <Mainbtn text={"Envoyer"} />
               </form>
             </div>
-            <div className="flex justify-between items-start flex-col space-y-10">
-              <div className="flex items-center flex-wrap gap-6">
-                <div className="w-20 h-20 bg-[#45869d] rounded-full flex items-center justify-between shadow-lg">
-                  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-between">
-                    <Icon
-                      icon="line-md:phone-call"
-                      width="35"
-                      height="35"
-                      className="text-[#53a4c0]"
-                    />
+            <div className="flex flex-col lg:w-1/2 w-full">
+              <h4 className="text-5xl font-semibold text-secondary">
+                Contactez-nous
+              </h4>
+              <p className="text-gray-500 mb-8">
+                Nous serions ravis d’échanger avec vous. Remplissez le
+                formulaire ci-dessous pour nous faire part de votre demande.
+              </p>
+              <div className="flex justify-between items-start flex-col space-y-10">
+                <div className="flex items-center flex-wrap gap-6">
+                  <div className="w-20 h-20 bg-[#45869d] rounded-full flex items-center justify-center shadow-lg">
+                    <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center">
+                      <Icon
+                        icon="line-md:phone-call"
+                        width="35"
+                        height="35"
+                        className="text-[#53a4c0]"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-secondary text-lg">Nous contacter</p>
+                    <p className="text-secondary text-2xl font-semibold tracking-wide">
+                      +33 5 81 33 52 03
+                    </p>
                   </div>
                 </div>
-                <div>
-                  <p className="text-secondary text-lg">Nous contacter</p>
-                  <p className="text-secondary text-2xl font-semibold tracking-wide">
-                    +33 5 81 33 52 03
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center flex-wrap gap-6">
-                <div className="w-20 h-20 bg-rose-400 rounded-full flex items-center justify-center shadow-lg">
-                  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center">
-                  <Icon
-                      icon="oui:email"
-                      width="35"
-                      height="35"
-                      className="text-rose-400"
-                    />
+                <div className="flex items-center flex-wrap gap-6">
+                  <div className="w-20 h-20 bg-rose-400 rounded-full flex items-center justify-center shadow-lg">
+                    <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center">
+                      <Icon
+                        icon="oui:email"
+                        width="35"
+                        height="35"
+                        className="text-rose-400"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-secondary text-lg">
+                      Une question ? Écrivez-nous !
+                    </p>
+                    <p className="text-secondary text-2xl font-semibold tracking-wide">
+                      nomadia-info@gmail.com
+                    </p>
                   </div>
                 </div>
+
+                <div className="flex items-center flex-wrap gap-6">
+                  <div className="w-20 h-20 bg-teal-700 rounded-full flex items-center justify-center shadow-lg">
+                    <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center">
+                      <Icon
+                        icon="lsicon:house-outline"
+                        width="35"
+                        height="35"
+                        className="text-teal-700"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-secondary text-lg">Adresse</p>
+                    <p className="text-secondary text-2xl font-semibold tracking-wide">
+                      29 Rue Tronchet, <br />
+                      75008 Paris
+                    </p>
+                  </div>
+                </div>
+                <h4 className="text-5xl pt-15 font-kaushan! font-medium">
+                  Parlons de <span className="text-yellow">votre projet</span>
+                </h4>
               </div>
             </div>
           </div>

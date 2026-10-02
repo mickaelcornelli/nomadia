@@ -179,11 +179,11 @@ function About() {
               1024: { slidesPerView: 3 },
               1280: { slidesPerView: 4 },
             }}
-            classNames="destination-swiper mt-10"
+            className="destination-swiper mt-10"
           >
             {Destinations.map((destination) => (
               <SwiperSlide key={destination.id}>
-                <DestinationCtgCard key={destination.id} item={destination} />
+                <DestinationCtgCard  item={destination} />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -232,30 +232,30 @@ function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
             {services.map((srv, index) => {
               return (
-                <>
-                  <Link
-                    to={`/service/${srv.id}`}
-                    className="service-item bg-white shadow-xl rounded-3xl p-3 group hover:bg-secondary transition-colors duration-500 cursor-pointer"
-                  >
-                    <div className="service-image rounded-3xl overflow-hidden h-60 md:h-100">
-                      <img
-                        src={srv.image}
-                        alt={srv.name}
-                        className="w-full h-full! object-cover"
-                      />
-                    </div>
-                    <span className="text-center block pt-5 pb-2 text-2xl font-medium text-secondary group-hover:text-yellow transition-colors duration-500">
-                      {srv.name}
-                    </span>
-                  </Link>
-                </>
+                <Link
+                  to={`/service/${srv.id}`}
+                  className="service-item bg-white shadow-xl rounded-3xl p-3 group hover:bg-secondary transition-colors duration-500 cursor-pointer"
+                >
+                  <div className="service-image rounded-3xl overflow-hidden h-60 md:h-100">
+                    <img
+                      src={srv.image}
+                      alt={srv.name}
+                      className="w-full h-full! object-cover"
+                    />
+                  </div>
+                  <span className="text-center block pt-5 pb-2 text-2xl font-medium text-secondary group-hover:text-yellow transition-colors duration-500">
+                    {srv.name}
+                  </span>
+                </Link>
               );
             })}
           </div>
 
           <div className="absolute right-40 bottom-8 hidden lg:flex flex-col text-white font-kaushan! text-2xl text-end xl:text-5xl z-1">
-          Des services pensés pour votre confort
-          <h2 className="uppercase font-afacad! font-extrabold text-4xl lg:text-6xl xl:text-8xl text-yellow">Nos prestations</h2>
+            Des services pensés pour votre confort
+            <h2 className="uppercase font-afacad! font-extrabold text-4xl lg:text-6xl xl:text-8xl text-yellow">
+              Nos prestations
+            </h2>
           </div>
         </div>
       </div>
