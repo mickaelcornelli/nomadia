@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 import Testimonials from "../../Components/Index/Testimonials/Testimonials";
 
 function TestimonialsPage() {

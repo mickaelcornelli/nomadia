@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
-import aboutimg from "../../assets/AboutPage/abt-pic1.png";
-import icon1 from "../../assets/Index/About/travel-guide.png";
-import icon2 from "../../assets/Index/About/mission-icon.png";
-import authore1 from "../../assets/Index/About/pic1.jpg";
-import authore2 from "../../assets/Index/About/pic2.jpg";
-import authore3 from "../../assets/Index/About/pic3.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
+import aboutimg from "/assets/AboutPage/abt-pic1.png";
+import icon1 from "/assets/Index/About/travel-guide.png";
+import icon2 from "/assets/Index/About/mission-icon.png";
+import authore1 from "/assets/Index/About/pic1.jpg";
+import authore2 from "/assets/Index/About/pic2.jpg";
+import authore3 from "/assets/Index/About/pic3.jpg";
 import Mainbtn from "../../Components/Buttons/Mainbtn";
 
-import cloud from "../../assets/AboutPage/Cloud-bg.png";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
+import cloud from "/assets/AboutPage/Cloud-bg.png";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import ballonleft from "../../assets/hotballon-Left.png";
-import ballonright from "../../assets/hotballon-right.png";
+import ballonleft from "/assets/hotballon-Left.png";
+import ballonright from "/assets/hotballon-right.png";
 import { useRef, useState } from "react";
 
 import Destinations from "../../Data/DestinationCtg.json";

@@ -1,5 +1,5 @@
 import React from "react";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 import { Link } from "react-router-dom";
 import Mainbtn from "../../Components/Buttons/Mainbtn";
 import { Icon } from "@iconify/react";

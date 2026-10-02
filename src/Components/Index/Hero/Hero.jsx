@@ -1,8 +1,8 @@
-import headerbg from "../../../assets/Index/Hero/slider-bg.jpg";
-import heroimg from "../../../assets/Index/Hero/right-pic.png";
-import plane from "../../../assets/Index/Hero/Plane-With-Line.png";
-import cloud1 from "../../../assets/Index/Hero/Cloud1.png";
-import cloud2 from "../../../assets/Index/Hero/Cloud2.png";
+import headerbg from "/assets/Index/Hero/slider-bg.jpg";
+import heroimg from "/assets/Index/Hero/right-pic.png";
+import plane from "/assets/Index/Hero/Plane-With-Line.png";
+import cloud1 from "/assets/Index/Hero/Cloud1.png";
+import cloud2 from "/assets/Index/Hero/Cloud2.png";
 import Mainbtn from "../../Buttons/Mainbtn";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";

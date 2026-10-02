@@ -1,6 +1,5 @@
-import React from "react";
 import { Link, useParams } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 
 import tours from "../../Data/PopularTour.json";
 import { Icon } from "@iconify/react";
@@ -12,14 +11,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import destination1 from "../../assets/Destination/DestinationDetailsPage/destinationdetails-image01.png";
-import destination2 from "../../assets/Destination/DestinationDetailsPage/destinationdetails-image02.png";
-import destination3 from "../../assets/Destination/DestinationDetailsPage/destinationdetails-image03.png";
+import destination1 from "/assets/Destination/DestinationDetailsPage/destinationdetails-image01.png";
+import destination2 from "/assets/Destination/DestinationDetailsPage/destinationdetails-image02.png";
+import destination3 from "/assets/Destination/DestinationDetailsPage/destinationdetails-image03.png";
 
-import icon1 from "../../assets/PopularToursPage/hotels.png";
-import icon2 from "../../assets/PopularToursPage/Sightseeing.png";
-import icon3 from "../../assets/PopularToursPage/car.png";
-import icon4 from "../../assets/PopularToursPage/meal.png";
+import icon1 from "/assets/PopularToursPage/hotels.png";
+import icon2 from "/assets/PopularToursPage/Sightseeing.png";
+import icon3 from "/assets/PopularToursPage/car.png";
+import icon4 from "/assets/PopularToursPage/meal.png";
 function ToursDetails() {
   const { id } = useParams();
 

@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import pic1 from "../../assets/Footer/pic1.jpg";
-import pic2 from "../../assets/Footer/pic2.jpg";
-import pic3 from "../../assets/Footer/pic3.jpg";
-import pic4 from "../../assets/Footer/pic4.jpg";
-import pic5 from "../../assets/Footer/pic5.jpg";
-import pic6 from "../../assets/Footer/pic6.jpg";
-import pic7 from "../../assets/Footer/pic7.jpg";
-import pic8 from "../../assets/Footer/pic8.jpg";
-import pic9 from "../../assets/Footer/pic9.jpg";
+import pic1 from "/assets/Footer/pic1.jpg";
+import pic2 from "/assets/Footer/pic2.jpg";
+import pic3 from "/assets/Footer/pic3.jpg";
+import pic4 from "/assets/Footer/pic4.jpg";
+import pic5 from "/assets/Footer/pic5.jpg";
+import pic6 from "/assets/Footer/pic6.jpg";
+import pic7 from "/assets/Footer/pic7.jpg";
+import pic8 from "/assets/Footer/pic8.jpg";
+import pic9 from "/assets/Footer/pic9.jpg";
 
 import { Icon } from "@iconify/react";
 
-import tyre from "../../assets/Footer/Left-Car-tyre.png";
-import car from "../../assets/Footer/Left-Car.png";
-import tree from "../../assets/Footer/Righttreepic.png";
+import tyre from "/assets/Footer/Left-Car-tyre.png";
+import car from "/assets/Footer/Left-Car.png";
+import tree from "/assets/Footer/Righttreepic.png";
 
 import Logo from "../../Components/Navbar/Logo/Logo";
 function Footer() {

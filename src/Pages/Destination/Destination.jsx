@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 import destinations from "../../Data/DestinationCtg.json";
 import DestinationCtgCard from "../../Components/DestinationCtgCard/DestinationCtgCard";
 

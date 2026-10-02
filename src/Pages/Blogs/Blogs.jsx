@@ -1,5 +1,5 @@
 import React from "react";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 import { Link } from "react-router-dom";
 import BlogCard from "../../Components/BlogCard/BlogCard";
 import blogdata from "../../Data/Blogs.json"

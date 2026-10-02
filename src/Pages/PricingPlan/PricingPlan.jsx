@@ -1,25 +1,25 @@
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
-import sectionbanner from "../../assets/section-banner.jpg";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
-import pricingplan from "../../assets/PricingPage/pricebg.png";
+import sectionbanner from "/assets/section-banner.jpg";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
+import pricingplan from "/assets/PricingPage/pricebg.png";
 
-import tour1 from "../../assets/PricingPage/tour-01.jpg";
-import tour2 from "../../assets/PricingPage/tour-02.jpg";
-import tour3 from "../../assets/PricingPage/tour-03.jpg";
+import tour1 from "/assets/PricingPage/tour-01.jpg";
+import tour2 from "/assets/PricingPage/tour-02.jpg";
+import tour3 from "/assets/PricingPage/tour-03.jpg";
 
-import step1img from "../../assets/PricingPage/destination-01.png";
-import step2img from "../../assets/PricingPage/destination-02.png";
-import step3img from "../../assets/PricingPage/destination-03.png";
+import step1img from "/assets/PricingPage/destination-01.png";
+import step2img from "/assets/PricingPage/destination-02.png";
+import step3img from "/assets/PricingPage/destination-03.png";
 
-import des1 from "../../assets/PricingPage/choose-destination.png";
-import des2 from "../../assets/PricingPage/make-payment-1.png";
-import des3 from "../../assets/PricingPage/ready-for-travelling.png";
+import des1 from "/assets/PricingPage/choose-destination.png";
+import des2 from "/assets/PricingPage/make-payment-1.png";
+import des3 from "/assets/PricingPage/ready-for-travelling.png";
 
-import bag from "../../assets/PricingPage/bag.png";
-import tent from "../../assets/PricingPage/tent.png";
-import frmimg from "../../assets/PricingPage/frm-left.jpg";
+import bag from "/assets/PricingPage/bag.png";
+import tent from "/assets/PricingPage/tent.png";
+import frmimg from "/assets/PricingPage/frm-left.jpg";
 import Mainbtn from "../../Components/Buttons/Mainbtn";
 function PricingPlan() {
   return (

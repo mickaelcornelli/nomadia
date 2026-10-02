@@ -1,8 +1,8 @@
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 import { Link } from "react-router-dom";
-import cloudbg from "../../assets/ErrorPage/error-bg-cloud.png";
-import ballon from "../../assets/ErrorPage/hotballon-error.png";
-import errorbg from "../../assets/ErrorPage/error-bg.png";
+import cloudbg from "/assets/ErrorPage/error-bg-cloud.png";
+import ballon from "/assets/ErrorPage/hotballon-error.png";
+import errorbg from "/assets/ErrorPage/error-bg.png";
 import Mainbtn from "../../Components/Buttons/Mainbtn";
 
 function Page404() {

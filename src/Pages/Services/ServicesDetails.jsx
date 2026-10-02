@@ -1,15 +1,14 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
+import sectionbanner from "/assets/section-banner.jpg";
 import { Icon } from "@iconify/react";
 
-import gallery1 from "../../assets/ServicesPage/ServiceDetails/gallery-01.jpg";
-import gallery2 from "../../assets/ServicesPage/ServiceDetails/gallery-02.jpg";
-import gallery3 from "../../assets/ServicesPage/ServiceDetails/gallery-03.jpg";
-import gallery4 from "../../assets/ServicesPage/ServiceDetails/gallery-04.jpg";
-import gallery5 from "../../assets/ServicesPage/ServiceDetails/gallery-05.jpg";
-import gallery6 from "../../assets/ServicesPage/ServiceDetails/gallery-06.jpg";
+import gallery1 from "/assets/ServicesPage/ServiceDetails/gallery-01.jpg";
+import gallery2 from "/assets/ServicesPage/ServiceDetails/gallery-02.jpg";
+import gallery3 from "/assets/ServicesPage/ServiceDetails/gallery-03.jpg";
+import gallery4 from "/assets/ServicesPage/ServiceDetails/gallery-04.jpg";
+import gallery5 from "/assets/ServicesPage/ServiceDetails/gallery-05.jpg";
+import gallery6 from "/assets/ServicesPage/ServiceDetails/gallery-06.jpg";
 
 import services from "../../Data/Services.json";
 

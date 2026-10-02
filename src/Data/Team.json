@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Camille Moreau",
-      "image": "/src/assets/TourGuidePage/pic1.jpg",
+      "image": "/assets/TourGuidePage/pic1.jpg",
       "jobtitle": "Guide touristique",
       "age": 32,
       "education": "Master en histoire de l'art et patrimoine culturel",
@@ -28,7 +28,7 @@
     {
       "id": 2,
       "name": "Emma Fontaine",
-      "image": "/src/assets/TourGuidePage/pic2.jpg",
+      "image": "/assets/TourGuidePage/pic2.jpg",
       "jobtitle": "Guide touristique privée",
       "age": 27,
       "education": "Bachelor en tourisme de luxe et relations internationales",
@@ -54,7 +54,7 @@
     {
       "id": 3,
       "name": "Sofia Laurent",
-      "image": "/src/assets/TourGuidePage/pic3.jpg",
+      "image": "/assets/TourGuidePage/pic3.jpg",
       "jobtitle": "Guide culturelle",
       "age": 35,
       "education": "Diplôme en anthropologie culturelle et communication touristique",
@@ -80,7 +80,7 @@
     {
       "id": 4,
       "name": "Thomas Girard",
-      "image": "/src/assets/TourGuidePage/pic4.jpg",
+      "image": "/assets/TourGuidePage/pic4.jpg",
       "jobtitle": "Guide aventure et nature",
       "age": 38,
       "education": "Formation en écotourisme et gestion des espaces naturels",
@@ -106,7 +106,7 @@
     {
       "id": 5,
       "name": "Lucas Bernard",
-      "image": "/src/assets/TourGuidePage/pic5.jpg",
+      "image": "/assets/TourGuidePage/pic5.jpg",
       "jobtitle": "Guide touristique international",
       "age": 29,
       "education": "Licence en tourisme et gestion des destinations internationales",
@@ -132,7 +132,7 @@
     {
       "id": 6,
       "name": "Emilie Bennett",
-      "image": "/src/assets/TourGuidePage/pic6.jpg",
+      "image": "/assets/TourGuidePage/pic6.jpg",
       "jobtitle": "Accompagnatrice de voyage",
       "age": 41,
       "education": "Diplôme supérieur en management touristique et langues étrangères",

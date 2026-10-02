@@ -1,7 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
+import sectionbanner from "/assets/section-banner.jpg";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 
 import PopularTourCard from "../../Components/PopularTourCard/PopularTourCard";
 import toursData from "../../Data/PopularTour.json"

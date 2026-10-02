@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 
-import faqimg from "../../assets/faq-media.png";
-import contactbg from "../../assets/con-sec-bg.jpg";
+import faqimg from "/assets/faq-media.png";
+import contactbg from "/assets/con-sec-bg.jpg";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 import Mainbtn from "../../Components/Buttons/Mainbtn";

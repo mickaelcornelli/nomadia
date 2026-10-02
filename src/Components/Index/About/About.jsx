@@ -1,15 +1,15 @@
-import icon1 from "../../../assets/Index/About/travel-guide.png";
-import icon2 from "../../../assets/Index/About/mission-icon.png";
+import icon1 from "/assets/Index/About/travel-guide.png";
+import icon2 from "/assets/Index/About/mission-icon.png";
 import Mainbtn from "../../Buttons/Mainbtn";
 
-import authore1 from "../../../assets/Index/About/pic1.jpg";
-import authore2 from "../../../assets/Index/About/pic2.jpg";
-import authore3 from "../../../assets/Index/About/pic3.jpg";
+import authore1 from "/assets/Index/About/pic1.jpg";
+import authore2 from "/assets/Index/About/pic2.jpg";
+import authore3 from "/assets/Index/About/pic3.jpg";
 
-import airplane from "../../../assets/Index/About/airplane.png";
-import aboutimg1 from "../../../assets/Index/About/about-image01.jpg";
-import aboutimg2 from "../../../assets/Index/About/about-image02.jpg";
-import aboutimg3 from "../../../assets/Index/About/about-image03.jpg";
+import airplane from "/assets/Index/About/airplane.png";
+import aboutimg1 from "/assets/Index/About/about-image01.jpg";
+import aboutimg2 from "/assets/Index/About/about-image02.jpg";
+import aboutimg3 from "/assets/Index/About/about-image03.jpg";
 
 function About() {
   return (

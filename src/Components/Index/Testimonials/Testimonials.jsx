@@ -1,16 +1,16 @@
-import titleShape from "../../../assets/Index/BookingSteps/Title-Shape.png";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
-import tst1 from "../../../assets/Index/Testimonials/testimonials-01.jpg";
-import tst2 from "../../../assets/Index/Testimonials/testimonials-02.jpg";
-import tst3 from "../../../assets/Index/Testimonials/testimonials-03.jpg";
-import tst4 from "../../../assets/Index/Testimonials/testimonials-04.jpg";
-import tst5 from "../../../assets/Index/Testimonials/testimonials-05.jpg";
-import tst6 from "../../../assets/Index/Testimonials/testimonials-06.jpg";
-import quote from "../../../assets/Index/Testimonials/Quote.png";
+import tst1 from "/assets/Index/Testimonials/testimonials-01.jpg";
+import tst2 from "/assets/Index/Testimonials/testimonials-02.jpg";
+import tst3 from "/assets/Index/Testimonials/testimonials-03.jpg";
+import tst4 from "/assets/Index/Testimonials/testimonials-04.jpg";
+import tst5 from "/assets/Index/Testimonials/testimonials-05.jpg";
+import tst6 from "/assets/Index/Testimonials/testimonials-06.jpg";
+import quote from "/assets/Index/Testimonials/Quote.png";
 
 import { Icon } from "@iconify/react";
 

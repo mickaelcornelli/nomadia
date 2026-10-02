@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 
-import destination1 from "../../assets/Destination/DestinationDetailsPage/destinationdetails-image01.png";
-import destination2 from "../../assets/Destination/DestinationDetailsPage/destinationdetails-image02.png";
-import destination3 from "../../assets/Destination/DestinationDetailsPage/destinationdetails-image03.png";
+import destination1 from "/assets/Destination/DestinationDetailsPage/destinationdetails-image01.png";
+import destination2 from "/assets/Destination/DestinationDetailsPage/destinationdetails-image02.png";
+import destination3 from "/assets/Destination/DestinationDetailsPage/destinationdetails-image03.png";
 import Mainbtn from "../../Components/Buttons/Mainbtn";
 
 import { Swiper, SwiperSlide } from "swiper/react";

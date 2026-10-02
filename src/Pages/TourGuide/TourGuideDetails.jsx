@@ -1,7 +1,6 @@
-import React from "react";
 import { Link, useParams } from "react-router-dom";
 
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 import { Icon } from "@iconify/react";
 import teams from "../../Data/Team.json";
 function TourGuideDetails() {

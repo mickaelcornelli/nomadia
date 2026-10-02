@@ -7,7 +7,7 @@
     "price": "90€",
     "duration": "4 jours & 3 nuits",
     "places": "1N Bangkok vieille ville | 2N centre-ville de Bangkok | 1N bord du fleuve Chao Phraya",
-    "image": "/src/assets/PopularToursPage/tour-01.jpg",
+    "image": "/assets/PopularToursPage/tour-01.jpg",
     "overview": "Découvrez Bangkok à travers ses temples emblématiques, ses marchés animés et ses quartiers historiques. Une immersion culturelle au cœur de la capitale thaïlandaise, entre traditions, gastronomie locale et découverte de la vie bangkokoise.",
     "overviewHighlights": [
       "Découverte des temples emblématiques de Bangkok",
@@ -66,7 +66,7 @@
     "price": "420€",
     "duration": "5 jours & 4 nuits",
     "places": "1N Interlaken | 2N Zermatt | 1N Lucerne | 1N Genève",
-    "image": "/src/assets/PopularToursPage/tour-02.jpg",
+    "image": "/assets/PopularToursPage/tour-02.jpg",
     "overview": "Partez à la découverte des paysages majestueux des Alpes suisses entre montagnes, lacs et villages pittoresques. Un séjour mêlant randonnée, panoramas exceptionnels et découvertes culturelles à Interlaken, Zermatt, Lucerne et Genève.",
     "overviewHighlights": [
       "Séjour au cœur des Alpes suisses",
@@ -134,7 +134,7 @@
     "price": "890€",
     "duration": "6 jours & 5 nuits",
     "places": "2N Serengeti | 2N Ngorongoro | 1N Arusha | 1N Tarangire",
-    "image": "/src/assets/PopularToursPage/tour-03.jpg",
+    "image": "/assets/PopularToursPage/tour-03.jpg",
     "overview": "Vivez une aventure exceptionnelle au cœur de la Tanzanie entre savane sauvage, grands espaces et rencontres avec la faune africaine. Explorez le Serengeti, le cratère du Ngorongoro et le parc de Tarangire lors d’un safari inoubliable.",
     "overviewHighlights": [
       "Safaris au cœur du Serengeti et de Tarangire",
@@ -211,7 +211,7 @@
     "price": "1200€",
     "duration": "7 jours & 6 nuits",
     "places": "2N Tokyo | 2N Kyoto | 1N Osaka | 1N Nara | 1N Hakone",
-    "image": "/src/assets/PopularToursPage/tour-04.jpg",
+    "image": "/assets/PopularToursPage/tour-04.jpg",
     "overview": "Découvrez les multiples facettes du Japon entre modernité, traditions et paysages fascinants. De Tokyo à Kyoto en passant par Osaka, Nara et Hakone, vivez une expérience riche en culture, gastronomie et découvertes.",
     "overviewHighlights": [
       "Découverte de Tokyo, Kyoto, Osaka et Nara",

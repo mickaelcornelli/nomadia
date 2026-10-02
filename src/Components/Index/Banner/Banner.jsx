@@ -1,4 +1,4 @@
-import vdo from "../../../assets/Index/banner-video.mp4";
+import vdo from "/assets/Index/banner-video.mp4";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 function Banner() {

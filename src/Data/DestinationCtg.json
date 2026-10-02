@@ -4,7 +4,7 @@
     "id": 1,
     "name": "Paris",
     "slug": "paris",
-    "image": "src/assets/Destination/destination-01.jpg",
+    "image": "/assets/Destination/destination-01.jpg",
     "country": "France",
     "description": "Découvrez Paris, la ville lumière, entre monuments emblématiques, élégants boulevards, gastronomie française et charme intemporel. Une destination idéale pour une escapade culturelle et romantique.",
     "features": [
@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Papeete",
     "slug": "papeete",
-    "image": "src/assets/Destination/destination-02.jpg",
+    "image": "/assets/Destination/destination-02.jpg",
     "country": "Polynésie",
     "description": "Bienvenue à Papeete, porte d’entrée de la Polynésie française. Entre lagons turquoise, paysages luxuriants et culture polynésienne, laissez-vous séduire par un véritable paradis tropical.",
     "features": [
@@ -34,7 +34,7 @@
     "id": 3,
     "name": "Fenghuang",
     "slug": "fenghuang",
-    "image": "src/assets/Destination/destination-03.jpg",
+    "image": "/assets/Destination/destination-03.jpg",
     "country": "Chine",
     "description": "Plongez dans l’atmosphère fascinante de Fenghuang, ancienne cité chinoise bordée par la rivière. Maisons traditionnelles, ruelles pittoresques et paysages enchanteurs vous invitent à un voyage hors du temps.",
     "features": [
@@ -49,7 +49,7 @@
     "id": 4,
     "name": "Pattaya",
     "slug": "pattaya",
-    "image": "src/assets/Destination/destination-04.jpg",
+    "image": "/assets/Destination/destination-04.jpg",
     "country": "Thaïlande",
     "description": "Entre plages bordées de palmiers, eaux turquoise et vie nocturne animée, Pattaya offre un savant mélange de détente, de découvertes et de divertissements au cœur de la Thaïlande.",
     "features": [
@@ -64,7 +64,7 @@
     "id": 5,
     "name": "Agra",
     "slug": "agra",
-    "image": "src/assets/Destination/destination-05.jpg",
+    "image": "/assets/Destination/destination-05.jpg",
     "country": "Inde",
     "description": "Partez à la découverte d’Agra, joyau historique de l’Inde et célèbre pour le majestueux Taj Mahal. Une destination riche en histoire, en architecture et en traditions fascinantes.",
     "features": [
@@ -79,7 +79,7 @@
     "id": 6,
     "name": "Osaka",
     "slug": "osaka",
-    "image": "src/assets/Destination/destination-06.jpg",
+    "image": "/assets/Destination/destination-06.jpg",
     "country": "Japon",
     "description": "Explorez Osaka, une ville vibrante où traditions japonaises et modernité se rencontrent. Savourez sa cuisine réputée, découvrez ses quartiers animés et laissez-vous surprendre par son énergie unique.",
     "features": [
@@ -94,7 +94,7 @@
     "id": 7,
     "name": "Dubaï",
     "slug": "dubai",
-    "image": "src/assets/Destination/destination-07.jpg",
+    "image": "/assets/Destination/destination-07.jpg",
     "country": "Émirats arabes unis",
     "description": "Découvrez Dubaï, une destination spectaculaire où gratte-ciel futuristes, expériences luxueuses, désert et traditions du Moyen-Orient se rencontrent pour créer un voyage inoubliable.",
     "features": [
@@ -109,7 +109,7 @@
     "id": 8,
     "name": "Bangkok",
     "slug": "bangkok",
-    "image": "src/assets/Destination/destination-08.jpg",
+    "image": "/assets/Destination/destination-08.jpg",
     "country": "Thaïlande",
     "description": "Vivez l’effervescence de Bangkok, entre temples majestueux, marchés animés, cuisine thaïlandaise et quartiers modernes. Une capitale fascinante qui ne dort jamais et offre mille expériences.",
     "features": [

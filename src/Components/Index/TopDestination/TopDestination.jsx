@@ -1,7 +1,7 @@
-import manrock from "../../../assets/Index/TopDestination/man-rock.png";
-import customer1 from "../../../assets/Index/TopDestination/Customer-1.jpg";
-import customer2 from "../../../assets/Index/TopDestination/Customer-2.jpg";
-import customer3 from "../../../assets/Index/TopDestination/Customer-3.jpg";
+import manrock from "/assets/Index/TopDestination/man-rock.png";
+import customer1 from "/assets/Index/TopDestination/Customer-1.jpg";
+import customer2 from "/assets/Index/TopDestination/Customer-2.jpg";
+import customer3 from "/assets/Index/TopDestination/Customer-3.jpg";
 import Mainbtn from "../../Buttons/Mainbtn";
 
 import { Swiper, SwiperSlide } from "swiper/react";

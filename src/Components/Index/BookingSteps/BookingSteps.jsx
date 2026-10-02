@@ -1,7 +1,7 @@
-import titleShape from "../../../assets/Index/BookingSteps/Title-Shape.png";
-import stepsIcon1 from "../../../assets/Index/BookingSteps/Steps-Icon1.png";
-import stepsIcon2 from "../../../assets/Index/BookingSteps/Steps-Icon2.png";
-import stepsIcon3 from "../../../assets/Index/BookingSteps/Steps-Icon3.png";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
+import stepsIcon1 from "/assets/Index/BookingSteps/Steps-Icon1.png";
+import stepsIcon2 from "/assets/Index/BookingSteps/Steps-Icon2.png";
+import stepsIcon3 from "/assets/Index/BookingSteps/Steps-Icon3.png";
 import Mainbtn from "../../Buttons/Mainbtn";
 
 const stepsData = [

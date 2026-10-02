@@ -1,4 +1,4 @@
-import titleShape from "../../../assets/Index/BookingSteps/Title-Shape.png";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 
 import toursData from "../../../Data/PopularTour.json";
 import PopularTourCard from "../../PopularTourCard/PopularTourCard";

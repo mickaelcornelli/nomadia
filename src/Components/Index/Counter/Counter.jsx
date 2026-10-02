@@ -1,9 +1,9 @@
 import { useCountUp } from "react-countup";
 
-import counter1 from "../../../assets/Index/Counter/count-icon1.png";
-import counter2 from "../../../assets/Index/Counter/count-icon2.png";
-import counter3 from "../../../assets/Index/Counter/count-icon3.png";
-import counter4 from "../../../assets/Index/Counter/count-icon4.png";
+import counter1 from "/assets/Index/Counter/count-icon1.png";
+import counter2 from "/assets/Index/Counter/count-icon2.png";
+import counter3 from "/assets/Index/Counter/count-icon3.png";
+import counter4 from "/assets/Index/Counter/count-icon4.png";
 import { useRef } from "react";
 
 const counters = [

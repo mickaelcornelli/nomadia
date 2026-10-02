@@ -1,4 +1,4 @@
-import patern from "../../../assets/Index/Blogs/patern.png";
+import patern from "/assets/Index/Blogs/patern.png";
 import Mainbtn from "../../Buttons/Mainbtn";
 
 import blogdata from "../../../Data/Blogs.json";

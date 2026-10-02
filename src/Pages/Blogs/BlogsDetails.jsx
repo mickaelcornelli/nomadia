@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import blogdata from "../../Data/Blogs.json";
-import sectionbanner from "../../assets/section-banner.jpg";
+import sectionbanner from "/assets/section-banner.jpg";
 
 import Mainbtn from "../../Components/Buttons/Mainbtn";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
+import sectionbanner from "/assets/section-banner.jpg";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 import services from "../../Data/Services.json"
 import Testimonials from "../../Components/Index/Testimonials/Testimonials";
 function Services() {

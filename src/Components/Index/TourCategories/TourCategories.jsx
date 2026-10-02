@@ -1,11 +1,11 @@
 import { useState } from "react";
-import tourbg from "../../../assets/Index/TourCategories/tour-bg.jpg";
-import ctg1 from "../../../assets/Index/TourCategories/Tour-Categories-01.jpg";
-import ctg2 from "../../../assets/Index/TourCategories/Tour-Categories-02.jpg";
-import ctg3 from "../../../assets/Index/TourCategories/Tour-Categories-03.jpg";
-import ctg4 from "../../../assets/Index/TourCategories/Tour-Categories-04.jpg";
-import ctg5 from "../../../assets/Index/TourCategories/Tour-Categories-05.jpg";
-import ctg6 from "../../../assets/Index/TourCategories/Tour-Categories-06.jpg";
+import tourbg from "/assets/Index/TourCategories/tour-bg.jpg";
+import ctg1 from "/assets/Index/TourCategories/Tour-Categories-01.jpg";
+import ctg2 from "/assets/Index/TourCategories/Tour-Categories-02.jpg";
+import ctg3 from "/assets/Index/TourCategories/Tour-Categories-03.jpg";
+import ctg4 from "/assets/Index/TourCategories/Tour-Categories-04.jpg";
+import ctg5 from "/assets/Index/TourCategories/Tour-Categories-05.jpg";
+import ctg6 from "/assets/Index/TourCategories/Tour-Categories-06.jpg";
 
 import Mainbtn from "../../Buttons/Mainbtn";
 

@@ -1,8 +1,7 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import { Link, useNavigate } from "react-router-dom";
-import sectionbanner from "../../assets/section-banner.jpg";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
+import sectionbanner from "/assets/section-banner.jpg";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 
 import teamMembers from "../../Data/Team.json"
 

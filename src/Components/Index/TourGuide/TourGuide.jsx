@@ -1,12 +1,12 @@
-import titleShape from "../../../assets/Index/BookingSteps/Title-Shape.png";
+import titleShape from "/assets/Index/BookingSteps/Title-Shape.png";
 
-import teamimg from "../../../assets/Index/TourGuide/team-1.png";
-import circleshape from "../../../assets/Index/TourGuide/CircleShape.png";
+import teamimg from "/assets/Index/TourGuide/team-1.png";
+import circleshape from "/assets/Index/TourGuide/CircleShape.png";
 
-import team1 from "../../../assets/Index/TourGuide/pic1.jpg";
-import team2 from "../../../assets/Index/TourGuide/pic2.jpg";
-import team3 from "../../../assets/Index/TourGuide/pic3.jpg";
-import team4 from "../../../assets/Index/TourGuide/pic4.jpg";
+import team1 from "/assets/Index/TourGuide/pic1.jpg";
+import team2 from "/assets/Index/TourGuide/pic2.jpg";
+import team3 from "/assets/Index/TourGuide/pic3.jpg";
+import team4 from "/assets/Index/TourGuide/pic4.jpg";
 
 import { Icon } from "@iconify/react";
 import { Link, useNavigate } from "react-router-dom";
