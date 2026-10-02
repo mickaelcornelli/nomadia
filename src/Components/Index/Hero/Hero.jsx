@@ -1,4 +1,3 @@
-import React from "react";
 import headerbg from "../../../assets/index/Hero/slider-bg.jpg";
 import heroimg from "../../../assets/index/Hero/right-pic.png";
 import plane from "../../../assets/index/Hero/Plane-With-Line.png";
